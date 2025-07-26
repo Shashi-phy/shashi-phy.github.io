@@ -12,8 +12,14 @@ citation: 'S. B. Mishra, S. K. Yadav, D. G. Kanhere, and B. R. K. Nanda. (2020).
 
 We discover a novel mechanism for creating 2D magnetic lattices in graphene through fluorine intercalation, leading to pseudoatomization and emergence of magnetic ordering.
 
-![Fluorinated Graphene](/images/publications/fluorinated-graphene-fig.png)
-*Figure: (a) Fluorine intercalation geometry, (b) Spin density distribution, (c) Magnetic coupling mechanisms*
+{% include base_path %}
+
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="{{ base_path }}/images/publications/fluorinated-graphene-fig.png" alt="Fluorinated Graphene Structure" style="width: 100%; max-width: 600px;">
+  <figcaption style="font-style: italic; margin-top: 10px; font-size: 14px;">
+    Figure: (a) Fluorine intercalation geometry, (b) Spin density distribution, (c) Magnetic coupling mechanisms
+  </figcaption>
+</figure>
 
 **Novel Discovery:**
 - First demonstration of pseudoatomization in 2D materials
@@ -22,3 +28,6 @@ We discover a novel mechanism for creating 2D magnetic lattices in graphene thro
 
 **Significance:**
 Opens new pathway for engineering magnetism in 2D materials without transition metals, relevant for spintronics applications.
+
+**Research Impact:**
+This breakthrough provides a new route to magnetic 2D materials that could revolutionize spintronics and quantum device applications.
