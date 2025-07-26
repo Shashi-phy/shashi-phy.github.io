@@ -21,6 +21,17 @@ Advisor: Prof. Roxana Margine
 - Contributing to EPW (Electron-Phonon Wannier) code development
 - Investigating transport properties of Weyl Semimetals
 
+## Previous Position
+
+**Postdoctoral Researcher** (April 2021 - March 2023)  
+Department of Mechanical Engineering, University of California, Riverside, USA  
+Advisor: Prof. Sinisa Coh
+
+- Formulated gauge-invariant theory for inverse Faraday effect in nonmagnetic metals
+- Investigated light-induced magnetic phenomena for ultrafast magnetic switching applications
+- Developed theoretical framework for optical control of magnetism
+- Collaborated on experimental validation of theoretical predictions
+
 ## Research Focus
 
 I am interested in integrating machine learning with first-principles calculations to accelerate the discovery of materials with tunable quantum properties, especially for transport and superconductivity applications. My research emphasizes bridging fundamental physics with real-world applications that include:
