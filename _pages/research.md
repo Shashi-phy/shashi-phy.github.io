@@ -15,20 +15,24 @@ My research focuses on developing advanced theoretical and computational methods
 I am developing first-order vertex corrections for electron-phonon interactions that go beyond the conventional Migdal approximation, enabling more accurate predictions of superconducting properties in high-Tc hydrides.
 
 **Related Publications:**
-- S. B. Mishra, H. Mori, and E. R. Margine, "Electron-phonon vertex correction effect in superconducting H₃S" (2025) - Under Review
+- S. B. Mishra, H. Mori, and E. R. Margine, "Electron-phonon vertex correction effect in superconducting H₃S," *npj Comput. Mater.* (2025)
+- S. B. Mishra and E. R. Margine, "Nonadiabatic and anharmonic effects in high-pressure H₃S and D₃S superconductors" (Under Review in *Annalen der Physik*)
+- S. B. Mishra, E. T. Marcial, S. Debata, A. N. Kolmogorov, and E. R. Margine, "Stability-superconductivity map for compressed Na-intercalated graphite," *Phys. Rev. B* **110**, 174508 (2024)
 
 ### Transport Properties of Topological Materials
 Investigating electron-phonon limited transport in Weyl semimetals, focusing on how Berry phase effects influence conductivity and anomalous transport phenomena, including machine learning approaches for transport prediction.
 
 **Related Publications:**
-- Z. Liu*, S. B. Mishra*, et al., "Phonon-limited carrier transport in the Weyl semimetal TaAs" (2025) - Under Revision
+- Z. Liu*, S. B. Mishra*, J.-M. Lihm, S. Poncé, and E. R. Margine, "Phonon-limited carrier transport in the Weyl semimetal TaAs," *Phys. Rev. B* **112**, 104311 (2025) (*equal contribution)
+- S. B. Mishra*, Z. Liu*, S. Tiwari, F. Giustino, and E. R. Margine, "Comparative study of phonon-limited carrier transport in the Weyl semimetal TaAs family" (Under Review in *Phys. Rev. B*)
 
 ### Light-Matter Interactions and Magnetism
 Developing gauge-invariant theories for light-induced magnetic phenomena, particularly the inverse Faraday effect in metals, with applications to ultrafast magnetic switching.
 
 **Related Publications:**
-- S. B. Mishra, "Inverse Faraday effect in 3d, 4d, and 5d transition metals," Phys. Rev. B (2025)
-- S. B. Mishra and S. Coh, "Spin contribution to the inverse Faraday effect of nonmagnetic metals," Phys. Rev. B (2023)
+- S. B. Mishra, "Inverse Faraday effect in 3d, 4d, and 5d transition metals," *Phys. Rev. B* **111**, 174413 (2025)
+- V. Ortiz, S. B. Mishra, L. Vuong, S. Coh, and R. B. Wilson, "Transient Ellipsometry Measurements of the Specular Inverse Faraday Effect in Transition Metals," *Phys. Rev. Mater.* **7**, 125202 (2023)
+- S. B. Mishra and S. Coh, "Spin contribution to the inverse Faraday effect of nonmagnetic metals," *Phys. Rev. B* **107**, 214432 (2023)
 
 ## Research Themes
 
@@ -40,7 +44,15 @@ Developing gauge-invariant theories for light-induced magnetic phenomena, partic
 
 **Computational Materials Design:** Designing novel 2D materials and heterostructures for electronic and energy applications, including battery materials, photocatalysis, and surface chemistry using first-principles methods.
 
-## Code Development
+### EPWpy
+- **Role:** Co-developer
+- **Contributions:** Developing automation framework for many-body physics workflows as part of NSF CSSI MATCSSI project
+- **Impact:** Streamlining computational workflows for electron-phonon calculations
+
+### Quantum ESPRESSO
+- **Role:** Contributor
+- **Contributions:** Various improvements and bug fixes
+- **Integration:** Seamless workflow with EPW for electron-phonon calculations
 
 **EPW (Electron-Phonon Wannier):** Developer team member implementing vertex corrections and advanced electron-phonon coupling calculations, enabling beyond-Migdal calculations for the broader community.
 
