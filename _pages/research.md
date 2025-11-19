@@ -11,28 +11,25 @@ My research focuses on developing advanced theoretical and computational methods
 
 ## Current Research Projects
 
-### Beyond Migdal Approximation in Superconductivity
-I am developing first-order vertex corrections for electron-phonon interactions that go beyond the conventional Migdal approximation, enabling more accurate predictions of superconducting properties in high-Tc hydrides.
+*Beyond Migdal approximation in superconductivity:* Developing first-order vertex corrections for electron-phonon interactions that go beyond the conventional Migdal approximation, enabling more accurate predictions of superconducting properties in high-Tc hydrides.
 
-**Related Publications:**
+Related publications:
 - S. B. Mishra, H. Mori, and E. R. Margine, "Electron-phonon vertex correction effect in superconducting H₃S," *npj Comput. Mater.* (2025)
 - S. B. Mishra and E. R. Margine, "Nonadiabatic and anharmonic effects in high-pressure H₃S and D₃S superconductors" (Under Review in *Annalen der Physik*)
-- S. B. Mishra, E. T. Marcial, S. Debata, A. N. Kolmogorov, and E. R. Margine, "Stability-superconductivity map for compressed Na-intercalated graphite," *Phys. Rev. B* **110**, 174508 (2024)
+- S. B. Mishra, E. T. Marcial, S. Debata, A. N. Kolmogorov, and E. R. Margine, "Stability-superconductivity map for compressed Na-intercalated graphite," *Phys. Rev. B* 110, 174508 (2024)
 
-### Transport Properties of Topological Materials
-Investigating electron-phonon limited transport in Weyl semimetals, focusing on how Berry phase effects influence conductivity and anomalous transport phenomena, including machine learning approaches for transport prediction.
+*Transport properties of topological materials:* Investigating electron-phonon limited transport in Weyl semimetals, focusing on how Berry phase effects influence conductivity and anomalous transport phenomena, including machine learning approaches for transport prediction.
 
-**Related Publications:**
-- Z. Liu*, S. B. Mishra*, J.-M. Lihm, S. Poncé, and E. R. Margine, "Phonon-limited carrier transport in the Weyl semimetal TaAs," *Phys. Rev. B* **112**, 104311 (2025) (*equal contribution)
-- S. B. Mishra*, Z. Liu*, S. Tiwari, F. Giustino, and E. R. Margine, "Comparative study of phonon-limited carrier transport in the Weyl semimetal TaAs family" (Under Review in *Phys. Rev. B*)
+Related publications:
+- Z. Liu, S. B. Mishra, J.-M. Lihm, S. Poncé, and E. R. Margine, "Phonon-limited carrier transport in the Weyl semimetal TaAs," *Phys. Rev. B* 112, 104311 (2025)
+- S. B. Mishra, Z. Liu, S. Tiwari, F. Giustino, and E. R. Margine, "Comparative study of phonon-limited carrier transport in the Weyl semimetal TaAs family" (Under Review in *Phys. Rev. B*)
 
-### Light-Matter Interactions and Magnetism
-Developing gauge-invariant theories for light-induced magnetic phenomena, particularly the inverse Faraday effect in metals, with applications to ultrafast magnetic switching.
+*Light-matter interactions and magnetism:* Developing gauge-invariant theories for light-induced magnetic phenomena, particularly the inverse Faraday effect in metals, with applications to ultrafast magnetic switching.
 
-**Related Publications:**
-- S. B. Mishra, "Inverse Faraday effect in 3d, 4d, and 5d transition metals," *Phys. Rev. B* **111**, 174413 (2025)
-- V. Ortiz, S. B. Mishra, L. Vuong, S. Coh, and R. B. Wilson, "Transient Ellipsometry Measurements of the Specular Inverse Faraday Effect in Transition Metals," *Phys. Rev. Mater.* **7**, 125202 (2023)
-- S. B. Mishra and S. Coh, "Spin contribution to the inverse Faraday effect of nonmagnetic metals," *Phys. Rev. B* **107**, 214432 (2023)
+Related publications:
+- S. B. Mishra, "Inverse Faraday effect in 3d, 4d, and 5d transition metals," *Phys. Rev. B* 111, 174413 (2025)
+- V. Ortiz, S. B. Mishra, L. Vuong, S. Coh, and R. B. Wilson, "Transient Ellipsometry Measurements of the Specular Inverse Faraday Effect in Transition Metals," *Phys. Rev. Mater.* 7, 125202 (2023)
+- S. B. Mishra and S. Coh, "Spin contribution to the inverse Faraday effect of nonmagnetic metals," *Phys. Rev. B* 107, 214432 (2023)
 
 ## Research Themes
 
