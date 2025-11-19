@@ -3,42 +3,12 @@ permalink: /
 title: "About"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 I am a theoretical condensed matter physicist working at the intersection of quantum many-body theory, computational materials science, and machine learning. Currently, I focus on pushing the boundaries of electron-phonon physics by developing methodologies that go beyond the Migdal approximation. These efforts enable more accurate predictions of superconducting properties in systems such as high-Tc hydrides where conventional adiabatic theories break down.
-
-## Current Position
-
-**Postdoctoral Researcher** (April 2023 - Present)  
-Department of Physics, SUNY Binghamton, NY, USA  
-Advisor: Prof. Roxana Margine
-
-- Developing first-order vertex corrections for electron-phonon interactions beyond Migdal approximation
-- Implementing machine learning approaches to accelerate superconductor discovery
-- Contributing to EPW (Electron-Phonon Wannier) code development
-- Investigating transport properties of Weyl Semimetals
-
-## Previous Position
-
-**Postdoctoral Researcher** (April 2021 - March 2023)  
-Department of Mechanical Engineering, University of California, Riverside, USA  
-Advisor: Prof. Sinisa Coh
-
-- Formulated gauge-invariant theory for inverse Faraday effect in nonmagnetic metals
-- Investigated light-induced magnetic phenomena for ultrafast magnetic switching applications
-- Developed theoretical framework for optical control of magnetism
-- Collaborated on experimental validation of theoretical predictions
-
-## Research Focus
-
-I am interested in integrating machine learning with first-principles calculations to accelerate the discovery of materials with tunable quantum properties, especially for transport and superconductivity applications. My research emphasizes bridging fundamental physics with real-world applications that include:
-
-- **Design of quantum materials** for next-generation computing
-- **Light-induced magnetism** for ultrafast devices  
-- **Materials for sustainable energy storage**
 
 ## Research Interests
 
@@ -51,6 +21,26 @@ I am interested in integrating machine learning with first-principles calculatio
 **Transport Properties**: Electron-phonon limited transport, Berry phase effects on conductivity, anomalous transport in topological materials, ultrafast carrier dynamics
 
 **Machine Learning for Materials Physics**: ML-accelerated discovery of phonon-mediated superconductors, neural network potentials for electron-phonon coupling, data-driven approaches for predicting critical temperatures
+
+## Current Position
+
+**Postdoctoral Researcher** (April 2023 - Present)
+Department of Physics, SUNY Binghamton, NY, USA
+Advisor: Prof. Roxana Margine
+
+- Developing first-order vertex corrections for electron-phonon interactions beyond Migdal approximation
+- Implementing machine learning approaches to accelerate superconductor discovery
+- Contributing to EPW (Electron-Phonon Wannier) code development
+- Investigating transport properties of Weyl Semimetals
+
+## Previous Position
+
+**Postdoctoral Researcher** (April 2021 - March 2023)
+Department of Mechanical Engineering, University of California, Riverside, USA
+Advisor: Prof. Sinisa Coh
+
+- Formulated gauge-invariant theory for inverse Faraday effect in nonmagnetic metals
+- Investigated light-induced magnetic phenomena for ultrafast magnetic switching applications
 
 ## Recent Highlights
 

@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download PDF Version](/files/Shashi_Mishra_CV.pdf)
+[Download PDF Version](/files/Shashi_CV.pdf)
 
 ## Education
 
