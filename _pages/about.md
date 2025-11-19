@@ -73,8 +73,6 @@ Fakir Mohan University, Odisha, India
 I am actively contributing to open-source scientific software:
 
 - **EPW (Electron-Phonon Wannier)** - Developer team member
-- **EPWpy** - Co-developer (automation framework for many-body physics workflows)
-- **Quantum ESPRESSO** - Contributor
 
 ## Research Funding
 

@@ -44,19 +44,9 @@ Developing gauge-invariant theories for light-induced magnetic phenomena, partic
 
 **Computational Materials Design:** Designing novel 2D materials and heterostructures for electronic and energy applications, including battery materials, photocatalysis, and surface chemistry using first-principles methods.
 
-### EPWpy
-- **Role:** Co-developer
-- **Contributions:** Developing automation framework for many-body physics workflows as part of NSF CSSI MATCSSI project
-- **Impact:** Streamlining computational workflows for electron-phonon calculations
-
-### Quantum ESPRESSO
-- **Role:** Contributor
-- **Contributions:** Various improvements and bug fixes
-- **Integration:** Seamless workflow with EPW for electron-phonon calculations
+## Code Development
 
 **EPW (Electron-Phonon Wannier):** Developer team member implementing vertex corrections and advanced electron-phonon coupling calculations, enabling beyond-Migdal calculations for the broader community.
-
-**Quantum ESPRESSO:** Contributor with various improvements and integration with EPW for electron-phonon calculations.
 
 ## Collaborations
 
