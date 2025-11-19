@@ -8,19 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-I am a theoretical condensed matter physicist working at the intersection of quantum many-body theory, computational materials science, and machine learning. Currently, I focus on pushing the boundaries of electron-phonon physics by developing methodologies that go beyond the Migdal approximation. These efforts enable more accurate predictions of superconducting properties in systems such as high-Tc hydrides where conventional adiabatic theories break down.
+I am a theoretical condensed matter physicist at SUNY Binghamton working on superconductivity, topological materials, electron-phonon interactions, and light-matter interactions. I develop and apply first-principles computational methods, machine learning approaches, and many-body theory to design and discover functional quantum materials.
 
 ## Research Interests
 
-**Quantum Many-Body Theory**: Phonon-mediated superconductivity, electron-phonon interactions, vertex corrections, strongly correlated systems
+- *Quantum many-body theory:* Phonon-mediated superconductivity, electron-phonon interactions, vertex corrections, strongly correlated systems
 
-**Superconductivity**: High-Tc cuprates, iron-based superconductors, nickelates, superconducting mechanisms beyond BCS theory
+- *Superconductivity:* High-Tc cuprates, iron-based superconductors, nickelates, superconducting mechanisms beyond BCS theory
 
-**Topological Quantum Matter**: Topological superconductivity, Weyl and Dirac semimetals, topological phase transitions, quantum anomalous Hall effect
+- *Topological quantum matter:* Topological superconductivity, Weyl and Dirac semimetals, topological phase transitions, quantum anomalous Hall effect
 
-**Transport Properties**: Electron-phonon limited transport, Berry phase effects on conductivity, anomalous transport in topological materials, ultrafast carrier dynamics
+- *Transport properties:* Electron-phonon limited transport, Berry phase effects on conductivity, anomalous transport in topological materials, ultrafast carrier dynamics
 
-**Machine Learning for Materials Physics**: ML-accelerated discovery of phonon-mediated superconductors, neural network potentials for electron-phonon coupling, data-driven approaches for predicting critical temperatures
+- *Machine learning for materials physics:* ML-accelerated discovery of phonon-mediated superconductors, neural network potentials for electron-phonon coupling, data-driven approaches for predicting critical temperatures
 
 ## Current Position
 
