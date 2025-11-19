@@ -8,36 +8,30 @@ redirect_from:
   - /about.html
 ---
 
-I am a theoretical condensed matter physicist at SUNY Binghamton working on superconductivity, topological materials, electron-phonon interactions, and light-matter interactions. I develop and apply first-principles computational methods, machine learning approaches, and many-body theory to design and discover functional quantum materials.
+I am a theoretical condensed matter physicist at SUNY Binghamton using first-principles simulations, many-body theory, and data-driven models to design superconductors and quantum materials. My work connects fundamental electron-phonon physics with practical routes for controlling transport and light-matter interactions.
 
-## Research Interests
+## Research Focus
 
-- *Quantum many-body theory:* Phonon-mediated superconductivity, electron-phonon interactions, vertex corrections, strongly correlated systems
+- **Quantum superconductivity** — Phonon-mediated pairing, vertex corrections, and mechanisms that go beyond weak-coupling BCS pictures.
+- **Topological transport** — Berry curvature driven responses, Weyl/Dirac semimetals, and emergent superconducting states in topological platforms.
+- **Photon- and phonon-engineering** — Ultrafast excitation, inverse Faraday effect, and phonon-limited mobility in quantum devices.
+- **Machine-learning design loops** — Surrogate models for Tc prediction, ML-ready datasets, and neural-network potentials for electron-phonon coupling.
 
-- *Superconductivity:* High-Tc cuprates, iron-based superconductors, nickelates, superconducting mechanisms beyond BCS theory
+## Methods Snapshot
 
-- *Topological quantum matter:* Topological superconductivity, Weyl and Dirac semimetals, topological phase transitions, quantum anomalous Hall effect
-
-- *Transport properties:* Electron-phonon limited transport, Berry phase effects on conductivity, anomalous transport in topological materials, ultrafast carrier dynamics
-
-- *Machine learning for materials physics:* ML-accelerated discovery of phonon-mediated superconductors, neural network potentials for electron-phonon coupling, data-driven approaches for predicting critical temperatures
+- Density-functional and many-body perturbation techniques for realistic electron-phonon physics
+- High-throughput workflows linking stability, transport, and superconducting observables
+- Lightweight ML models that accelerate screening while keeping interpretability front and center
 
 ## Education
 
-**Ph.D. in Physics** (March 2021)
-Indian Institute of Technology Madras, India
-Advisor: Prof. B. R. K. Nanda
+- **Ph.D. Physics,** IIT Madras — March 2021 (Advisor: Prof. B. R. K. Nanda)
+- **M.Sc. Physics,** Utkal University — June 2013
+- **B.Sc. Physics,** Fakir Mohan University — June 2011
 
-**M.Sc. in Physics** (June 2013)
-Utkal University, Odisha, India
+## Recent Highlights
 
-**B.Sc. in Physics** (June 2011)
-Fakir Mohan University, Odisha, India
-
-## News
-
-- [November 2025] Paper on "Electron-phonon vertex correction effect in superconducting H₃S" published in *npj Computational Materials*
-- [October 2025] Paper on "Cubic BeB₂: A metastable p-type conductive material" published in *Physical Review B*
-- [September 2025] Paper on "Phonon-limited carrier transport in TaAs" published in *Physical Review B*
-- [May 2025] Paper on "Inverse Faraday effect in 3d, 4d, and 5d transition metals" published in *Physical Review B*
-- [November 2024] Paper on "Stability-superconductivity map for compressed Na-intercalated graphite" published in *Physical Review B*
+- **Nov 2025** · *npj Computational Materials* — Electron-phonon vertex corrections in superconducting H₃S
+- **Oct 2025** · *Physical Review B* — Demonstrated cubic BeB₂ as a metastable p-type conductor
+- **Sep 2025** · *Physical Review B* — Quantified phonon-limited carrier transport in TaAs
+- **May 2025** · *Physical Review B* — Linked inverse Faraday effect trends across 3d–5d transition metals
