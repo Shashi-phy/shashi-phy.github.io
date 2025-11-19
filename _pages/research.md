@@ -36,13 +36,13 @@ Developing gauge-invariant theories for light-induced magnetic phenomena, partic
 
 ## Research Themes
 
-**Quantum Many-Body Theory:** Developing advanced theoretical frameworks to capture non-adiabatic effects and vertex corrections in strongly coupled electron-phonon systems. Investigating unconventional superconducting mechanisms in high-Tc materials and the interplay between electron correlations and phonon dynamics.
+**Quantum many-body theory:** Developing advanced theoretical frameworks to capture non-adiabatic effects and vertex corrections in strongly coupled electron-phonon systems. Investigating unconventional superconducting mechanisms in high-Tc materials and the interplay between electron correlations and phonon dynamics.
 
-**Machine Learning for Materials Physics:** Integrating machine learning with first-principles calculations to accelerate materials discovery, developing neural network potentials for electron-phonon coupling, and using data-driven approaches for predicting superconducting properties.
+**Machine learning for materials physics:** Integrating machine learning with first-principles calculations to accelerate materials discovery, developing neural network potentials for electron-phonon coupling, and using data-driven approaches for predicting superconducting properties.
 
-**Topological Quantum Matter:** Studying transport properties of Weyl and Dirac semimetals, topological superconductivity, and quantum anomalous Hall effect in magnetic topological insulators.
+**Topological quantum matter:** Studying transport properties of Weyl and Dirac semimetals, topological superconductivity, and quantum anomalous Hall effect in magnetic topological insulators.
 
-**Computational Materials Design:** Designing novel 2D materials and heterostructures for electronic and energy applications, including battery materials, photocatalysis, and surface chemistry using first-principles methods.
+**Computational materials design:** Designing novel 2D materials and heterostructures for electronic and energy applications, including battery materials, photocatalysis, and surface chemistry using first-principles methods.
 
 ## Code Development
 
