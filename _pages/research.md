@@ -36,24 +36,24 @@ Developing gauge-invariant theories for light-induced magnetic phenomena, partic
 
 ## Research Themes
 
-**Quantum many-body theory:** Developing advanced theoretical frameworks to capture non-adiabatic effects and vertex corrections in strongly coupled electron-phonon systems. Investigating unconventional superconducting mechanisms in high-Tc materials and the interplay between electron correlations and phonon dynamics.
+- *Quantum many-body theory:* Developing advanced theoretical frameworks to capture non-adiabatic effects and vertex corrections in strongly coupled electron-phonon systems. Investigating unconventional superconducting mechanisms in high-Tc materials and the interplay between electron correlations and phonon dynamics.
 
-**Machine learning for materials physics:** Integrating machine learning with first-principles calculations to accelerate materials discovery, developing neural network potentials for electron-phonon coupling, and using data-driven approaches for predicting superconducting properties.
+- *Machine learning for materials physics:* Integrating machine learning with first-principles calculations to accelerate materials discovery, developing neural network potentials for electron-phonon coupling, and using data-driven approaches for predicting superconducting properties.
 
-**Topological quantum matter:** Studying transport properties of Weyl and Dirac semimetals, topological superconductivity, and quantum anomalous Hall effect in magnetic topological insulators.
+- *Topological quantum matter:* Studying transport properties of Weyl and Dirac semimetals, topological superconductivity, and quantum anomalous Hall effect in magnetic topological insulators.
 
-**Computational materials design:** Designing novel 2D materials and heterostructures for electronic and energy applications, including battery materials, photocatalysis, and surface chemistry using first-principles methods.
+- *Computational materials design:* Designing novel 2D materials and heterostructures for electronic and energy applications, including battery materials, photocatalysis, and surface chemistry using first-principles methods.
 
 ## Code Development
 
-**EPW (Electron-Phonon Wannier):** Developer team member implementing vertex corrections and advanced electron-phonon coupling calculations, enabling beyond-Migdal calculations for the broader community.
+- *EPW (Electron-Phonon Wannier):* Developer team member implementing vertex corrections and advanced electron-phonon coupling calculations, enabling beyond-Migdal calculations for the broader community.
 
 ## Collaborations
 
-**SUNY Binghamton (Prof. Roxana Margine):** Beyond-Migdal electron-phonon theory and superconductivity
+- *SUNY Binghamton (Prof. Roxana Margine):* Beyond-Migdal electron-phonon theory and superconductivity
 
-**UC Riverside (Prof. Sinisa Coh):** Light-matter interactions and inverse Faraday effect
+- *UC Riverside (Prof. Sinisa Coh):* Light-matter interactions and inverse Faraday effect
 
-**IIT Madras (Prof. B. R. K. Nanda):** 2D materials and energy applications
+- *IIT Madras (Prof. B. R. K. Nanda):* 2D materials and energy applications
 
-**International:** EPW code development with global computational physics community
+- *International:* EPW code development with global computational physics community
