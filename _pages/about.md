@@ -17,14 +17,14 @@ I use first-principles simulations, many-body theory, and data-driven models to 
 - *Light-Matter interaction* — Ultrafast excitation, inverse Faraday effect, and non-thermal phase transition in materials.
 - *Automated workflows* — Machine learning models for Tc prediction, ML-ready datasets for electron-phonon coupling.
 - *Magnetism* - Acheiving through intercalation of diatomic molecules between 2D materials.
-- *Energy storage devices* - Explored Si$_2$BN, Graphdiyne, and Graphyne for solid-state batteries. 
+- *Energy storage devices* - Explored Si2BN, Graphdiyne, and Graphyne for solid-state batteries. 
 - *Catalysis* - Semiconducting oxides and their heterointerfaces for catalytic applications.
 
-## Methods Snapshot
+<!-- ## Methods Snapshot
 
 - Density-functional and many-body perturbation techniques for realistic electron-phonon physics
 - High-throughput workflows linking stability, transport, and superconducting observables
-- Lightweight ML models that accelerate screening while keeping interpretability front and center
+- Lightweight ML models that accelerate screening while keeping interpretability front and center -->
 
 
 ## Work experience
@@ -35,7 +35,7 @@ Phonon-mediated superconductivity and EPW code  development
 Light-induced magnetic phenomena in metals for magnetic switching devices
 
 - *June, 2020 - March, 2021* Project Officer at IIT Madras, India
-Development of TiO$_2$ based materials for gas sensing and solar cell applications
+Development of TiO2 based materials for gas sensing and solar cell applications
 
 
 ## Education
