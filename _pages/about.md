@@ -8,14 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a theoretical condensed matter physicist at SUNY Binghamton using first-principles simulations, many-body theory, and data-driven models to design superconductors and quantum materials. My work connects fundamental electron-phonon physics with practical routes for controlling transport and light-matter interactions.
+I use first-principles simulations, many-body theory, and data-driven models to design superconductors and quantum materials. My work connects fundamental electron-phonon physics with practical routes for controlling transport and light-matter interactions.
 
 ## Research Focus
 
-- **Quantum superconductivity** — Phonon-mediated pairing, vertex corrections, and mechanisms that go beyond weak-coupling BCS pictures.
-- **Topological transport** — Berry curvature driven responses, Weyl/Dirac semimetals, and emergent superconducting states in topological platforms.
-- **Photon- and phonon-engineering** — Ultrafast excitation, inverse Faraday effect, and phonon-limited mobility in quantum devices.
-- **Machine-learning design loops** — Surrogate models for Tc prediction, ML-ready datasets, and neural-network potentials for electron-phonon coupling.
+- *Superconductivity* — Phonon-mediated pairing, vertex corrections, and materials design for ambient pressure superconductivity.
+- *Topological transport* — Berry curvature driven responses, transport propertis of Weyl/Dirac semimetals, and emergent superconducting states in topological platforms.
+- *Light-Matter interaction* — Ultrafast excitation, inverse Faraday effect, and non-thermal phase transition in materials.
+- *Automated workflows* — Machine learning models for Tc prediction, ML-ready datasets for electron-phonon coupling.
+- *Magnetism* - Acheiving through intercalation of diatomic molecules between 2D materials.
+- *Energy storage devices* - Explored Si$_2$BN, Graphdiyne, and Graphyne for solid-state batteries. 
+- *Catalysis* - Semiconducting oxides and their heterointerfaces for catalytic applications.
 
 ## Methods Snapshot
 
@@ -25,9 +28,9 @@ I am a theoretical condensed matter physicist at SUNY Binghamton using first-pri
 
 ## Education
 
-- **Ph.D. Physics,** IIT Madras — March 2021 (Advisor: Prof. B. R. K. Nanda)
-- **M.Sc. Physics,** Utkal University — June 2013
-- **B.Sc. Physics,** Fakir Mohan University — June 2011
+- *Ph.D. Physics,* IIT Madras — March 2021 (Advisor: Prof. B. R. K. Nanda)
+- *M.Sc. Physics,* Utkal University — June 2013
+- *B.Sc. Physics,* Fakir Mohan University — June 2011
 
 ## Recent Highlights
 
