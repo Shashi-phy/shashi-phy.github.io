@@ -26,9 +26,21 @@ I use first-principles simulations, many-body theory, and data-driven models to 
 - High-throughput workflows linking stability, transport, and superconducting observables
 - Lightweight ML models that accelerate screening while keeping interpretability front and center
 
+%-------------------------------------------------------
+## Work experience
+- *April, 2023 - Present* Postdoctoral Researcher, SUNY Binghamton, NY, USA
+Phonon-mediated superconductivity and EPW code  development
+
+- *April, 2021 - March, 2023* Postdoctoral Researcher, University of California, Riverside, USA
+Light-induced magnetic phenomena in metals for magnetic switching devices
+
+*June, 2020 - March, 2021* Project Officer at IIT Madras, India
+Development of TiO$_2$ based materials for gas sensing and solar cell applications
+
+
 ## Education
 
-- *Ph.D. Physics,* IIT Madras — March 2021 (Advisor: Prof. B. R. K. Nanda)
+- *Ph.D. Physics,* IIT Madras — March 2021
 - *M.Sc. Physics,* Utkal University — June 2013
 - *B.Sc. Physics,* Fakir Mohan University — June 2011
 
