@@ -1,0 +1,55 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<style>
+.publication-item {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+.publication-item:last-child {
+  border-bottom: none;
+}
+.publication-authors {
+  font-weight: normal;
+  margin-bottom: 0.3em;
+}
+.publication-title {
+  font-style: italic;
+  margin-bottom: 0.3em;
+}
+.publication-venue {
+  color: #333;
+}
+</style>
+
+<ol reversed>
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+{% for post in sorted_pubs %}
+  <li class="publication-item">
+    <div class="publication-authors">{{ post.authors }}</div>
+    <div class="publication-title">"{{ post.title }}"</div>
+    <div class="publication-venue">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank">[{{ post.venue_short | default: post.venue }}]</a>
+      {% else %}
+        {{ post.venue_short | default: post.venue }}
+      {% endif %}
+      ({{ post.date | date: "%Y" }})
+    </div>
+  </li>
+{% endfor %}
+</ol>
+
+
+

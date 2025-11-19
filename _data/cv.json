@@ -1,0 +1,423 @@
+{
+  "basics": {
+    "name": "Shashi B. Mishra",
+    "email": "mshashi125@gmail.com",
+    "phone": "",
+    "website": "https://shashi-phy.github.io/",
+    "summary": "Currently Postdoctoral researcher at Department of Physics, SUNY Binghamton. My research interests include Computational Physics, Machine Learning, and High Performance Computing. I completed my Ph.D. in Physics from IIT Madras, India in 2020. ",
+    "location": {
+      "address": "Binghamton University, NY",
+      "postalCode": "",
+      "city": "NY",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Shashi B. Mishra",
+        "url": "https://scholar.google.com/citations?user=yLSyEkoAAAAJ&hl=en"
+      },
+      {
+        "network": "ORCID",
+        "username": "Shashi B. Mishra",
+        "url": "https://orcid.org/my-orcid?orcid=0000-0002-6361-3379"
+      },
+      {
+        "network": "GitHub",
+        "username": "Shashi-phy",
+        "url": "https://gitlab.com/Shashi-phy"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "SUNY Binghamton",
+      "position": "Postdoctoral Researcher",
+      "website": "",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "summary": "Phonon-mediated superconductivity, tranport properties of topological materials, and EPW code development",
+      "highlights": []
+    },
+    {
+      "company": "University of California, Riverside",
+      "position": "Postdoctoral Researcher",
+      "website": "",
+      "startDate": "2021-04-01",
+      "endDate": "2023-03-31",
+      "summary": "First principle study of light-induced magnetic phenomena in metals for magnetic switching devices",
+      "highlights": []
+    },
+    {
+      "company": "IIT Madras",
+      "position": "Project Officer",
+      "website": "",
+      "startDate": "2020-06-01",
+      "endDate": "2021-03-31",
+      "summary": "Development of TiO2 based materials for gas sensing and solar cell applications",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Indian Institute of Technology Madras",
+      "area": "Ph.D in computational Physics",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2020",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Utkal University",
+      "area": "M.S. in Physics",
+      "studyType": "",
+      "startDate": "2011",
+      "endDate": "2013",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Falkir Mohan University",
+      "area": "B.S. in Physics",
+      "studyType": "",
+      "startDate": "2007",
+      "endDate": "2011",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": ["Python", "Fortran", "Matlab", "Bash Script"]
+    },
+    {
+      "name": "Computational Software",
+      "level": "",
+      "keywords": ["Quantum ESPRESSO", "VASP", "ab initio MD", "Gaussian", "Wannier90", "Wannier Berri", "EPW"]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [
+    {
+      "name": "Virtual synthesis of crystals using ab initio MD: Case study on LiFePO4",
+      "publisher": "AIP Conference Proceedings",
+      "releaseDate": "2017-05-01",
+      "website": "https://doi.org/10.1063/1.4980597",
+      "summary": "Ab initio molecular dynamics approach for virtual synthesis of crystal structures."
+    },
+    {
+      "name": "Quantum well Structure of Double Perovskite Superlattice and Formation of Spin-polarized Two-dimensional Electron gas",
+      "publisher": "Physical Review B",
+      "releaseDate": "2018-09-15",
+      "website": "https://doi.org/10.1103/PhysRevB.98.115155",
+      "summary": "Discovery of quantum well states and spin-polarized 2D electron gas formation in double perovskite superlattices."
+    },
+    {
+      "name": "Quantum-Mechanical Process of Carbonate Complex Formation and Large-scale Anisotropy in the Adsorption Energy of CO2 on Anatase TiO2(001) Surface",
+      "publisher": "Physical Review Materials",
+      "releaseDate": "2018-11-01",
+      "website": "https://doi.org/10.1103/PhysRevMaterials.2.115801",
+      "summary": "Detailed quantum mechanical analysis of CO2 carbonate complex formation on TiO2 surfaces."
+    },
+    {
+      "name": "Facet Dependent Catalytic Activities of Anatase TiO2 for CO2 Adsorption and Conversion",
+      "publisher": "Applied Surface Science",
+      "releaseDate": "2020-04-01",
+      "website": "https://doi.org/10.1016/j.apsusc.2020.147330",
+      "summary": "Systematic first-principles study of CO2 interaction with different anatase TiO2 facets."
+    },
+    {
+      "name": "Mechanistic Understanding of NO2 Dissociation on a Rutile TiO2(110) Surface",
+      "publisher": "Journal of Physical Chemistry C",
+      "releaseDate": "2020-05-15",
+      "website": "https://doi.org/10.1021/acs.jpcc.0c00525",
+      "summary": "Electronic structure study of NO2 dissociation mechanisms on rutile TiO2 surfaces."
+    },
+    {
+      "name": "Fluorine Intercalated Graphene: Formation of a Two-dimensional Spin Lattice through Pseudoatomization",
+      "publisher": "Physical Review Materials",
+      "releaseDate": "2020-07-15",
+      "website": "https://doi.org/10.1103/PhysRevMaterials.4.074411",
+      "summary": "Discovery of novel magnetic ordering in fluorine-intercalated graphene."
+    },
+    {
+      "name": "Density Functional Theory Studies of Si2BN Nanosheets as Anode Materials for Magnesium Ion Batteries",
+      "publisher": "ACS Applied Nano Materials",
+      "releaseDate": "2020-09-15",
+      "website": "https://doi.org/10.1021/acsanm.0c01747",
+      "summary": "First-principles study of Si2BN nanosheets for magnesium ion battery applications."
+    },
+    {
+      "name": "Development of Short and Long-range Magnetic order in Ba2MnTeO6",
+      "publisher": "Scientific Reports",
+      "releaseDate": "2021-03-15",
+      "website": "https://doi.org/10.1038/s41598-021-84876-5",
+      "summary": "Study of magnetic ordering in double perovskite frustrated antiferromagnet."
+    },
+    {
+      "name": "Electronic Structure of Graphene/TiO2 Interface: Design and Functional Perspectives",
+      "publisher": "Applied Surface Science",
+      "releaseDate": "2021-04-01",
+      "website": "https://doi.org/10.1016/j.apsusc.2021.148709",
+      "summary": "First-principles analysis of graphene/anatase TiO2 heterostructure interfaces."
+    },
+    {
+      "name": "Graphdiyne-A promising Cathode Material for Aluminium dual ion Battery",
+      "publisher": "ACS Applied Energy Materials",
+      "releaseDate": "2021-07-15",
+      "website": "https://doi.org/10.1021/acsaem.1c01164",
+      "summary": "First-principles design of graphdiyne as cathode material for aluminum ion batteries."
+    },
+    {
+      "name": "Adsorption and Degradation Mechanism of 2,4,6-TNT on TiO2 (110) surface",
+      "publisher": "Surface Science",
+      "releaseDate": "2021-09-15",
+      "website": "https://doi.org/10.1016/j.susc.2021.121902",
+      "summary": "First-principles study of TNT adsorption and degradation mechanisms on TiO2 surfaces."
+    },
+    {
+      "name": "High energy ion induced modification in TiO2 nanorods",
+      "publisher": "Nanoscale Advances",
+      "releaseDate": "2022-01-15",
+      "website": "https://doi.org/10.1039/D1NA00666E",
+      "summary": "Study of high energy ion beam effects on TiO2 nanorods structure and properties."
+    },
+    {
+      "name": "Work Function of van der Waals Topological Semimetals: Experiment and Theory",
+      "publisher": "Applied Physics Letters",
+      "releaseDate": "2022-03-15",
+      "website": "https://doi.org/10.1063/5.0079032",
+      "summary": "Combined experimental and theoretical study of work functions in topological semimetals."
+    },
+    {
+      "name": "Design of Aluminium ion battery with Graphyne host",
+      "publisher": "Nanoscale Advances",
+      "releaseDate": "2022-04-15",
+      "website": "https://doi.org/10.1039/D2NA00058J",
+      "summary": "First-principles design of graphyne as anode material for aluminum-ion batteries."
+    },
+    {
+      "name": "Spin contribution to the inverse Faraday effect of nonmagnetic metals",
+      "publisher": "Physical Review B",
+      "releaseDate": "2023-06-15",
+      "website": "https://doi.org/10.1103/PhysRevB.107.214432",
+      "summary": "Theoretical investigation of spin contributions to inverse Faraday effect in nonmagnetic metals."
+    },
+    {
+      "name": "Specular inverse Faraday effect in transition metals",
+      "publisher": "Physical Review Materials",
+      "releaseDate": "2023-12-15",
+      "website": "https://doi.org/10.1103/PhysRevMaterials.7.125202",
+      "summary": "Experimental measurements of inverse Faraday effect using transient ellipsometry."
+    },
+    {
+      "name": "Si2BN nanosheets as anchoring cathode material for Al-ion battery",
+      "publisher": "Journal of Energy Storage",
+      "releaseDate": "2024-01-15",
+      "website": "https://doi.org/10.1016/j.est.2023.109913",
+      "summary": "First-principles design of Si2BN nanosheets as cathode material for aluminum-ion batteries."
+    },
+    {
+      "name": "Hydrothermally Grown Halogen-Doped ZnO Nanorods for Photoelectrochemical Water Oxidation",
+      "publisher": "Journal of Physical Chemistry C",
+      "releaseDate": "2024-09-15",
+      "website": "https://doi.org/10.1021/acs.jpcc.4c03718",
+      "summary": "Combined experimental and DFT study of halogen-doped ZnO nanorods for water oxidation."
+    },
+    {
+      "name": "Stability-superconductivity map for compressed Na-intercalated graphite",
+      "publisher": "Physical Review B",
+      "releaseDate": "2024-11-01",
+      "website": "https://doi.org/10.1103/PhysRevB.110.174508",
+      "summary": "Comprehensive phase diagram of superconductivity in compressed sodium-intercalated graphite."
+    },
+    {
+      "name": "Electron-phonon vertex correction effect in superconducting H3S",
+      "publisher": "npj Computational Materials",
+      "releaseDate": "2025-01-10",
+      "website": "https://doi.org/10.1038/s41524-025-01818-9",
+      "summary": "First implementation of vertex corrections beyond Migdal approximation for superconducting hydrides."
+    },
+    {
+      "name": "Inverse Faraday effect in 3d, 4d, and 5d transition metals",
+      "publisher": "Physical Review B",
+      "releaseDate": "2025-01-15",
+      "website": "https://doi.org/10.1103/PhysRevB.111.174413",
+      "summary": "Comprehensive first-principles study of inverse Faraday effect across transition metal series."
+    },
+    {
+      "name": "Electrostatic Self-assembly Driven Heterojunction of CeO2/g-C3N4 Nanosheets",
+      "publisher": "ACS Applied Materials & Interfaces",
+      "releaseDate": "2025-01-18",
+      "website": "https://doi.org/10.1021/acsami.5c10272",
+      "summary": "Hybrid experimental and theoretical study of CeO2/g-C3N4 heterojunction for photocatalysis."
+    },
+    {
+      "name": "Cubic BeB2: A metastable p-type conductive material from first principles",
+      "publisher": "Physical Review B",
+      "releaseDate": "2025-01-20",
+      "website": "https://doi.org/10.1103/wx8d-6trp",
+      "summary": "First-principles study of cubic BeB2 as a metastable p-type conductive material."
+    },
+    {
+      "name": "Defects Dynamics in Photo-Excited CeO2 and their Influence on CO2 Photoreduction",
+      "publisher": "Advanced Functional Materials",
+      "releaseDate": "2025-02-01",
+      "website": "https://doi.org/10.1002/adfm.202513933",
+      "summary": "Study of defect dynamics in photo-excited CeO2 and their role in CO2 photoreduction."
+    },
+    {
+      "name": "Nonadiabatic and anharmonic effects in high-pressure H3S and D3S superconductors",
+      "publisher": "arXiv",
+      "releaseDate": "2025-03-01",
+      "website": "https://arxiv.org/abs/2510.25902",
+      "summary": "Investigation of nonadiabatic and anharmonic effects in high-temperature superconducting hydrides."
+    },
+    {
+      "name": "Phonon-limited carrier transport in the Weyl semimetal TaAs",
+      "publisher": "Physical Review B",
+      "releaseDate": "2025-09-01",
+      "website": "https://doi.org/10.1103/x8zl-w5x3",
+      "summary": "First-principles study of phonon-limited carrier transport in the Weyl semimetal TaAs."
+    },
+    {
+      "name": "Comparative study of phonon-limited carrier transport in the Weyl semimetal TaAs family",
+      "publisher": "arXiv",
+      "releaseDate": "2025-10-01",
+      "website": "https://arxiv.org/abs/2510.14048",
+      "summary": "Comparative study of carrier transport in the TaAs Weyl semimetal family."
+    }
+  ],
+  "presentations": [
+    {
+      "name": "First-order vertex corrections to phonon-mediated superconductivity in H3S and Pb",
+      "event": "APS March Meeting 2025",
+      "date": "2025-03-01",
+      "location": "Anaheim, CA, USA",
+      "description": ""
+    },
+    {
+      "name": "Stability-superconductivity map for compressed Na-intercalated graphite",
+      "event": "APS March Meeting 2025",
+      "date": "2025-03-01",
+      "location": "Anaheim, CA, USA",
+      "description": ""
+    },
+    {
+      "name": "First-principles study of phonon-mediated superconductivity beyond the Migdal approximation",
+      "event": "APS March Meeting 2024",
+      "date": "2024-03-01",
+      "location": "Minneapolis, MN, USA",
+      "description": ""
+    },
+    {
+      "name": "Inverse Faraday effect for transition metals",
+      "event": "APS March Meeting 2023",
+      "date": "2023-03-01",
+      "location": "Las Vegas, NV, USA",
+      "description": ""
+    },
+    {
+      "name": "Theory of inverse Faraday effect for non-magnetic materials",
+      "event": "APS March Meeting 2022",
+      "date": "2022-03-01",
+      "location": "Chicago, IL, USA",
+      "description": ""
+    },
+    {
+      "name": "Design and Electronic Structure Analysis of Graphene/Anatase TiO2 (001) Interface",
+      "event": "International Center for Theoretical Physics (ICTP)",
+      "date": "2020-09-28",
+      "location": "Trieste, Italy",
+      "description": ""
+    },
+    {
+      "name": "Magnetism in fluorine-intercalated graphene",
+      "event": "ICAMM 2019",
+      "date": "2019-07-01",
+      "location": "Rennes, France",
+      "description": ""
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Electronics Laboratory",
+      "institution": "IIT Madras, Department of Physics",
+      "date": "2015-01-01",
+      "role": "Teaching Assistant",
+      "description": "Designed, prepared, and taught Electronics laboratory exercises to 60 Engineering Physics students"
+    },
+    {
+      "course": "Advanced Physics Laboratory",
+      "institution": "IIT Madras, Department of Physics",
+      "date": "2016-01-01",
+      "role": "Teaching Assistant",
+      "description": "Prepared and taught Advanced Physics laboratory exercises to 50 Engineering Physics students"
+    },
+    {
+      "course": "School on Electron-Phonon Physics",
+      "institution": "University of Texas, Austin",
+      "date": "2024-06-09",
+      "role": "Workshop Facilitator",
+      "description": "TA at the School on Electron-Phonon Physics, Many-Body Perturbation Theory, and Computational Workflows"
+    },
+    {
+      "course": "Quantum ESPRESSO Hands-on",
+      "institution": "SRMIST and IIT Madras",
+      "date": "2018-01-01",
+      "role": "Teaching Assistant",
+      "description": "TA for hands-on exercises on Quantum ESPRESSO at EESTER 2018"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Young Scientist Award 2024",
+      "date": "2024-01-01",
+      "awarder": "Odisha Physical Society",
+      "summary": "Recognition for contributions to physics research"
+    },
+    {
+      "title": "Prof. A. L. Lashkar Prize 2021",
+      "date": "2021-01-01",
+      "awarder": "IIT Madras",
+      "summary": "Best Ph.D. thesis in Physics"
+    },
+    {
+      "title": "Best Oral Presentation Award",
+      "date": "2020-01-01",
+      "awarder": "EESTER 2020",
+      "summary": "Organized by SRMIST, IIT Madras and Uppsala University"
+    },
+    {
+      "title": "Young Scientist Scholarship",
+      "date": "2019-01-01",
+      "awarder": "DST, India",
+      "summary": "Travel grant for attending ICAMM 2019, Rennes, France"
+    },
+    {
+      "title": "Best Poster Award",
+      "date": "2017-01-01",
+      "awarder": "ICAFM 2017",
+      "summary": "Anna University, Chennai, India"
+    },
+    {
+      "title": "First Prize on Evaluation Test",
+      "date": "2017-01-01",
+      "awarder": "I2CAM 2017 School on Clean Energy",
+      "summary": "JNCASR, Bangalore, India"
+    },
+    {
+      "title": "Institute of Mathematics & Applications Scholarship",
+      "date": "2011-01-01",
+      "awarder": "DST, Govt. of Odisha",
+      "summary": "Scholarship for 2011-2013"
+    }
+  ],
+  "portfolio": []
+}
