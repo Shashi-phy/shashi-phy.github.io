@@ -7,7 +7,7 @@
    ========================================================================== */
 
 /* Used to set the size for <em> */
-$doc-font-size              : 15;
+$doc-font-size              : 14;
 
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -30,14 +30,14 @@ $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
 /* Type scale */
-$type-size-1                : 1.2em;    // ~18px - page titles
-$type-size-2                : 1em;      // ~16px - section headings
-$type-size-3                : 0.85em;   // ~13px - subsection headings
-$type-size-4                : 0.78em;   // ~12px - body text
-$type-size-5                : 0.75em;   // ~12px - sidebar text
-$type-size-6                : 0.65em;   // ~10px - small text
-$type-size-7                : 0.58em;   // ~9px - smaller text
-$type-size-8                : 0.5em;    // ~8px - smallest text
+$type-size-1                : 1.15em;   // ~16.5px - page titles
+$type-size-2                : 0.95em;   // ~15px - section headings
+$type-size-3                : 0.8em;    // ~12.5px - subsection headings
+$type-size-4                : 0.72em;   // ~11.5px - body text
+$type-size-5                : 0.68em;   // ~11px - sidebar text
+$type-size-6                : 0.6em;    // ~10px - small text
+$type-size-7                : 0.54em;   // ~9px - smaller text
+$type-size-8                : 0.48em;   // ~8px - smallest text
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
