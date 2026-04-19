@@ -9,19 +9,21 @@
 
 # main links
 main:
+  - title: "About"
+    url: /
+
   - title: "Research"
     url: /research/
-    
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/
-
-  - title: "Teaching"
-    url: /teaching/
-    
   - title: "CV"
     url: /cv/
 
-# Removed Portfolio and Blog Posts from navigation
+  - title: "Contact"
+    url: /#contact
+
+# Talks and Teaching pages remain reachable at /talks/ and /teaching/ but are
+# intentionally off the header nav for the 2026 redesign. Re-add entries here
+# to restore them in the masthead.

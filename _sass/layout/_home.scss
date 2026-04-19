@@ -1,0 +1,346 @@
+/* ==========================================================================
+   HOME — 2026 redesign
+   Scoped to `main.home` so the rest of the site keeps its existing look.
+   Design spec:
+     - Body 15-16px / headings 20/24/30 / code 14px mono
+     - Serif headings (Source Serif 4) + sans body (Inter)
+     - Neutral palette: #111 on #fafafa, single accent
+     - Content column 720-820px, line-height 1.6-1.7, >= 2rem rhythm
+   ========================================================================== */
+
+$home-bg:          #fafafa;
+$home-surface:     #ffffff;
+$home-text:        #111111;
+$home-muted:       #4a4a4a;
+$home-subtle:      #6b6b6b;
+$home-rule:        #e4e4e4;
+$home-accent:      #2c5282;
+$home-accent-soft: #eaf0f8;
+
+$home-serif: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+$home-sans:  "Inter", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$home-mono:  "IBM Plex Mono", Menlo, Monaco, Consolas, monospace;
+
+main.home {
+  background: $home-bg;
+  color: $home-text;
+  font-family: $home-sans;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern", "liga", "calt";
+
+  a {
+    color: $home-accent;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 120ms ease, color 120ms ease;
+  }
+  a:hover {
+    border-bottom-color: $home-accent;
+  }
+
+  code, kbd, samp {
+    font-family: $home-mono;
+    font-size: 14px;
+    background: #f1f1f1;
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: $home-serif;
+    font-weight: 500;
+    color: $home-text;
+    letter-spacing: -0.005em;
+    line-height: 1.25;
+    margin: 0 0 0.6em;
+  }
+  h1 { font-size: 30px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 20px; }
+  h4 { font-size: 17px; font-weight: 600; }
+
+  p { margin: 0 0 1rem; }
+
+  .home__wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+  }
+
+  /* ---- Section spacing & rules ------------------------------------------ */
+  section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-top: 1px solid $home-rule;
+  }
+  section:first-of-type { border-top: none; padding-top: 0; }
+  section > h2 {
+    font-size: 13px;
+    font-family: $home-sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: $home-subtle;
+    margin-bottom: 1.25rem;
+  }
+
+  /* ---- Header ------------------------------------------------------------ */
+  .home__header {
+    padding-top: 0;
+    padding-bottom: 2rem;
+    border-top: none;
+  }
+  .home__name {
+    font-family: $home-serif;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 1.15;
+    margin: 0 0 0.35rem;
+  }
+  .home__role {
+    font-family: $home-sans;
+    font-size: 15px;
+    color: $home-muted;
+    margin: 0 0 1rem;
+  }
+  .home__role em {
+    font-style: normal;
+    color: $home-text;
+  }
+  .home__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.25rem;
+    font-size: 14px;
+    color: $home-muted;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .home__links li { margin: 0; }
+  .home__links a { color: $home-muted; }
+  .home__links a:hover { color: $home-accent; }
+
+  /* ---- About ------------------------------------------------------------- */
+  .home__about p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: $home-text;
+    max-width: 68ch;
+  }
+
+  /* ---- Featured research ------------------------------------------------- */
+  .featured {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  @media (min-width: 720px) {
+    .featured { grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); gap: 2rem; }
+  }
+  .featured__figure {
+    margin: 0;
+    background: $home-surface;
+    border: 1px solid $home-rule;
+    border-radius: 4px;
+    padding: 0.75rem;
+  }
+  .featured__figure img {
+    display: block;
+    width: 100%;
+    max-height: 420px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  .featured__figure figcaption {
+    font-family: $home-serif;
+    font-style: italic;
+    font-size: 13.5px;
+    color: $home-muted;
+    line-height: 1.5;
+    margin-top: 0.6rem;
+  }
+  .featured__title {
+    font-size: 22px;
+    margin-bottom: 0.35rem;
+  }
+  .featured__venue {
+    font-family: $home-sans;
+    font-size: 13.5px;
+    color: $home-subtle;
+    margin-bottom: 0.9rem;
+    letter-spacing: 0.01em;
+  }
+  .featured__venue em { font-style: italic; color: $home-muted; }
+  .featured__summary {
+    font-size: 15.5px;
+    line-height: 1.65;
+    margin-bottom: 0.9rem;
+  }
+  .featured__doi {
+    display: inline-block;
+    font-size: 13.5px;
+    font-weight: 500;
+    padding: 0.35rem 0.7rem;
+    background: $home-accent-soft;
+    color: $home-accent;
+    border-radius: 3px;
+  }
+  .featured__doi:hover { border-bottom-color: transparent; background: darken($home-accent-soft, 3%); }
+
+  /* ---- Research themes --------------------------------------------------- */
+  .themes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  @media (min-width: 560px) {
+    .themes { grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  }
+  .themes__tile {
+    padding: 1.1rem 1.1rem 1rem;
+    background: $home-surface;
+    border: 1px solid $home-rule;
+    border-radius: 4px;
+  }
+  .themes__tile h3 {
+    font-size: 17px;
+    margin-bottom: 0.35rem;
+  }
+  .themes__tile p {
+    font-size: 14.5px;
+    color: $home-muted;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  /* ---- Publications ------------------------------------------------------ */
+  .pubs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: pub;
+  }
+  .pubs > li {
+    counter-increment: pub;
+    padding: 1rem 0 1rem 2.25rem;
+    border-top: 1px solid $home-rule;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .pubs > li:first-child { border-top: none; padding-top: 0.25rem; }
+  .pubs > li::before {
+    content: counter(pub) ".";
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    font-family: $home-serif;
+    font-size: 14px;
+    color: $home-subtle;
+    font-variant-numeric: tabular-nums;
+  }
+  .pubs > li:first-child::before { top: 0.25rem; }
+  .pubs__title {
+    color: $home-text;
+    font-weight: 500;
+  }
+  .pubs__title:hover { color: $home-accent; }
+  .pubs__authors {
+    color: $home-muted;
+    font-size: 14px;
+  }
+  .pubs__authors strong { color: $home-text; font-weight: 600; }
+  .pubs__venue {
+    font-style: italic;
+    color: $home-muted;
+    font-size: 14px;
+  }
+
+  /* ---- Contact / CV ------------------------------------------------------ */
+  .contact p {
+    font-size: 15.5px;
+    color: $home-muted;
+    margin-bottom: 0.4rem;
+  }
+  .contact a { color: $home-text; font-weight: 500; }
+  .contact a:hover { color: $home-accent; }
+
+  .cv-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid $home-rule;
+    border-radius: 3px;
+    background: $home-surface;
+    color: $home-text;
+  }
+  .cv-link:hover { border-color: $home-accent; color: $home-accent; }
+}
+
+/* Mobile breakpoint tightening */
+@media (max-width: 480px) {
+  main.home {
+    font-size: 15px;
+    .home__wrap { padding: 2rem 1.15rem 3.5rem; }
+    .home__name { font-size: 30px; }
+    h1 { font-size: 26px; }
+    h2 { font-size: 22px; }
+    .featured__title { font-size: 20px; }
+  }
+}
+
+/* Dark-theme override (site already toggles [data-theme="dark"]) */
+[data-theme="dark"] main.home {
+  $dk-bg: #13161b;
+  $dk-surface: #1a1e25;
+  $dk-text: #eceef2;
+  $dk-muted: #b7bcc6;
+  $dk-subtle: #8a8f99;
+  $dk-rule: #2a2f38;
+  $dk-accent: #7aa7d9;
+  $dk-accent-soft: #1e2a3a;
+
+  background: $dk-bg;
+  color: $dk-text;
+
+  h1, h2, h3, h4 { color: $dk-text; }
+  section { border-top-color: $dk-rule; }
+  section > h2 { color: $dk-subtle; }
+  .home__role { color: $dk-muted; }
+  .home__role em { color: $dk-text; }
+  .home__links, .home__links a { color: $dk-muted; }
+  .home__links a:hover { color: $dk-accent; }
+  a { color: $dk-accent; }
+  a:hover { border-bottom-color: $dk-accent; }
+  code, kbd, samp { background: #23272f; }
+
+  .featured__figure { background: $dk-surface; border-color: $dk-rule; }
+  .featured__figure figcaption { color: $dk-muted; }
+  .featured__venue { color: $dk-subtle; }
+  .featured__venue em { color: $dk-muted; }
+  .featured__doi { background: $dk-accent-soft; color: $dk-accent; }
+
+  .themes__tile { background: $dk-surface; border-color: $dk-rule; }
+  .themes__tile p { color: $dk-muted; }
+
+  .pubs > li { border-top-color: $dk-rule; }
+  .pubs > li::before { color: $dk-subtle; }
+  .pubs__title { color: $dk-text; }
+  .pubs__title:hover { color: $dk-accent; }
+  .pubs__authors, .pubs__venue { color: $dk-muted; }
+  .pubs__authors strong { color: $dk-text; }
+
+  .contact p { color: $dk-muted; }
+  .contact a { color: $dk-text; }
+  .contact a:hover { color: $dk-accent; }
+  .cv-link { background: $dk-surface; border-color: $dk-rule; color: $dk-text; }
+  .cv-link:hover { border-color: $dk-accent; color: $dk-accent; }
+}
