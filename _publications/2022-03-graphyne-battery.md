@@ -8,7 +8,7 @@ date: 2022-04-15
 venue: 'Nanoscale Advances'
 venue_short: 'Nanoscale Adv. 4, 3870-3882'
 pub_number: 14
-paperurl: 'https://doi.org/10.1039/D2NA00238H'
+paperurl: 'https://doi.org/10.1039/D2NA00058J'
 ---
 
-[Read the paper](https://doi.org/10.1039/D2NA00238H){:target="_blank"}
+[Read the paper](https://doi.org/10.1039/D2NA00058J){:target="_blank"}

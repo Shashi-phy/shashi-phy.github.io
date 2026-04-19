@@ -8,7 +8,7 @@ date: 2021-07-15
 venue: 'ACS Applied Energy Materials'
 venue_short: 'ACS Appl. Energy Mater. 4, 7786-7799'
 pub_number: 10
-paperurl: 'https://doi.org/10.1021/acsaem.1c01462'
+paperurl: 'https://doi.org/10.1021/acsaem.1c01164'
 ---
 
-[Read the paper](https://doi.org/10.1021/acsaem.1c01462){:target="_blank"}
+[Read the paper](https://doi.org/10.1021/acsaem.1c01164){:target="_blank"}

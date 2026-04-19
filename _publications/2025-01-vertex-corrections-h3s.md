@@ -6,9 +6,9 @@ permalink: /publication/2025-vertex-corrections-h3s
 authors: 'S. B. Mishra, H. Mori, and E. R. Margine'
 date: 2025-11-19
 venue: 'npj Computational Materials'
-venue_short: 'npj Comput. Mater.'
+venue_short: 'npj Comput. Mater. 11, 342'
 pub_number: 20
-paperurl: 'https://arxiv.org/abs/2507.01897'
+paperurl: 'https://doi.org/10.1038/s41524-025-01818-9'
 ---
 
-[Read the paper](https://arxiv.org/abs/2507.01897){:target="_blank"}
+[Read the paper](https://doi.org/10.1038/s41524-025-01818-9){:target="_blank"}

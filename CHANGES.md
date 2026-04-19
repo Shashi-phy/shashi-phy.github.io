@@ -1,4 +1,37 @@
-# Homepage redesign — April 2026
+# Site redesign — April 2026
+
+## Pass 2 (2026-04-19, later)
+
+Extends the home aesthetic to the Research and CV pages, updates current
+position to University of Maryland, and reconciles `_publications/` against
+the canonical CV.
+
+### Files touched (pass 2)
+
+| File | Change |
+|---|---|
+| `_config.yml` | `bio`, `location`, `employer` → UMD College Park. |
+| `_pages/cv.md` | Rewritten with `layout: home`. New UMD position (Assistant Research Scientist, ECE, Mar 2026–Present) added at the top; Binghamton moved to Apr 2023–Mar 2026. "Download PDF" link removed (content is now the canonical CV). Reorganized into tighter CV sections: Education · Appointments · Interests · Funding · Honours · Service · Teaching · Invited Talks · Contributed Presentations · Skills · Memberships · Publications (link). |
+| `_pages/research.md` | Rewritten with `layout: home`. Four current-project cards (Beyond-Migdal, Topological transport, Light-matter, Energy materials), Code development tiles (EPW, EPWpy), and an updated Collaborations list including UMD. |
+| `_sass/layout/_home.scss` | New component classes: `.cv-entry*`, `.cv-list`, `.projects*`. Dark-mode overrides added. Section `h2` labels remain 13px uppercase (design preserved). |
+| `_publications/2026-01-taas-family-transport.md` (new) | PRB 113, 045202 (2026), TaAs family, Mishra*/Liu*/Tiwari/Giustino/Margine. |
+| `_publications/2026-02-tio2-gas-sensing.md` (new) | *Mater. Sci. Eng. B* 326, 119210 (2026), Dey*/Mishra*/Hazra/Kabiraj/Roy. |
+| `_publications/2025-03-h3s-d3s-nonadiabatic.md` | Updated from arXiv preprint to published version in *Ann. Phys.* 538, e00553 (2026). |
+| `_publications/2025-01-vertex-corrections-h3s.md` | arXiv link → npj DOI `10.1038/s41524-025-01818-9`; venue short now includes *npj Comput. Mater.* **11**, 342. |
+| `_publications/2021-06-graphdiyne-battery.md` | DOI corrected: `10.1021/acsaem.1c01462` → `10.1021/acsaem.1c01164`. |
+| `_publications/2022-03-graphyne-battery.md` | DOI corrected: `10.1039/D2NA00238H` → `10.1039/D2NA00058J`. |
+| `_publications/2025-01-weyl-transport-taas.md` | **Deleted** — duplicate arXiv stub of the published single-TaAs paper already captured in `2025-09-taas-carrier-transport.md`. |
+
+### Still not touched
+
+- Minimal-Mistakes partials, `_layouts/single.html`, `_layouts/default.html`.
+- `_pages/publications.html` — still uses the archive layout; the home aesthetic is not applied there (it renders every `_publications/` entry automatically, which now totals 28 after the above fixes).
+- `_pages/talks.html`, `_pages/teaching.html`.
+- CV source (`CV.tex`) and IOP-B PDFs.
+
+---
+
+## Pass 1 (2026-04-19, committed as `abb5ed3`)
 
 Landing-page overhaul: new information architecture, serif-headed typography,
 featured-research hero for the H₃S vertex-correction paper, and a curated top-10

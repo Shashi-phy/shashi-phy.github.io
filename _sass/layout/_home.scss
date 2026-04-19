@@ -261,6 +261,122 @@ main.home {
     font-size: 14px;
   }
 
+  /* ---- CV entry blocks (used on /cv/) ----------------------------------- */
+  .cv-entry {
+    padding: 0.85rem 0;
+    border-top: 1px solid $home-rule;
+  }
+  .cv-entry:first-of-type { border-top: none; padding-top: 0.25rem; }
+  .cv-entry__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    font-size: 15.5px;
+    color: $home-text;
+    margin-bottom: 0.25rem;
+    flex-wrap: wrap;
+  }
+  .cv-entry__head strong { font-weight: 600; }
+  .cv-entry__date {
+    font-family: $home-sans;
+    font-size: 13.5px;
+    color: $home-subtle;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .cv-entry__body {
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: $home-muted;
+  }
+  .cv-entry__body em { color: $home-text; font-style: italic; }
+  .cv-entry__body ul {
+    margin: 0.45rem 0 0;
+    padding-left: 1.15rem;
+  }
+  .cv-entry__body li {
+    font-size: 14.5px;
+    line-height: 1.55;
+    margin-bottom: 0.15rem;
+    color: $home-muted;
+  }
+  .cv-entry__note {
+    display: inline-block;
+    margin-top: 0.2rem;
+    font-size: 13.5px;
+    color: $home-subtle;
+    font-style: italic;
+  }
+
+  .cv-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .cv-list > li {
+    position: relative;
+    padding: 0.45rem 0 0.45rem 1.1rem;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: $home-muted;
+    border-top: 1px solid $home-rule;
+  }
+  .cv-list > li:first-child { border-top: none; }
+  .cv-list > li::before {
+    content: "";
+    position: absolute;
+    left: 0.05rem;
+    top: 1.05rem;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: $home-subtle;
+  }
+  .cv-list > li strong { color: $home-text; font-weight: 600; }
+
+  /* ---- Research project cards (used on /research/) ---------------------- */
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .projects__item {
+    padding: 1.25rem 1.25rem 1.1rem;
+    background: $home-surface;
+    border: 1px solid $home-rule;
+    border-radius: 4px;
+  }
+  .projects__item h3 {
+    font-size: 19px;
+    margin-bottom: 0.5rem;
+    font-family: $home-serif;
+    font-weight: 500;
+    color: $home-text;
+  }
+  .projects__item > p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: $home-text;
+    margin-bottom: 0.8rem;
+  }
+  .projects__refs {
+    list-style: none;
+    padding: 0.6rem 0 0;
+    margin: 0;
+    border-top: 1px dashed $home-rule;
+  }
+  .projects__refs li {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: $home-muted;
+    padding: 0.25rem 0;
+  }
+  .projects__refs li em { color: $home-muted; }
+  .projects__refs li strong { color: $home-text; font-weight: 600; }
+  .projects__refs a { color: $home-text; font-weight: 500; }
+  .projects__refs a:hover { color: $home-accent; }
+
   /* ---- Contact / CV ------------------------------------------------------ */
   .contact p {
     font-size: 15.5px;
@@ -343,4 +459,24 @@ main.home {
   .contact a:hover { color: $dk-accent; }
   .cv-link { background: $dk-surface; border-color: $dk-rule; color: $dk-text; }
   .cv-link:hover { border-color: $dk-accent; color: $dk-accent; }
+
+  .cv-entry { border-top-color: $dk-rule; }
+  .cv-entry__head { color: $dk-text; }
+  .cv-entry__date { color: $dk-subtle; }
+  .cv-entry__body { color: $dk-muted; }
+  .cv-entry__body em { color: $dk-text; }
+  .cv-entry__body li { color: $dk-muted; }
+  .cv-entry__note { color: $dk-subtle; }
+
+  .cv-list > li { color: $dk-muted; border-top-color: $dk-rule; }
+  .cv-list > li::before { background: $dk-subtle; }
+  .cv-list > li strong { color: $dk-text; }
+
+  .projects__item { background: $dk-surface; border-color: $dk-rule; }
+  .projects__item h3 { color: $dk-text; }
+  .projects__item > p { color: $dk-text; }
+  .projects__refs { border-top-color: $dk-rule; }
+  .projects__refs li { color: $dk-muted; }
+  .projects__refs a { color: $dk-text; }
+  .projects__refs a:hover { color: $dk-accent; }
 }
