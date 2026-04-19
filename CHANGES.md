@@ -1,5 +1,40 @@
 # Site redesign — April 2026
 
+## Pass 3 (2026-04-19, evening)
+
+Targeted follow-ups driven by user feedback: expand Featured Research, refresh
+contact/socials, and extend the home aesthetic to the Publications page.
+
+### Files touched (pass 3)
+
+| File | Change |
+|---|---|
+| `_pages/about.md` | (1) Header now has a circular portrait (1235×1235 photo, 160 px on screen) next to the name block. (2) Email updated everywhere to `shashi13@umd.edu`. (3) GitHub link removed (GitLab only). (4) Featured research now contains the H₃S hero **plus three new highlight cards** — Transport in topological materials, Inverse Faraday effect, Energy materials by design — each with a figure, venue, summary, and DOI. |
+| `_pages/research.md` | (1) Overview rewritten in first person ("I study …" instead of "My group …"). (2) "Beyond-Migdal superconductivity" project renamed to **Superconductivity** and rewritten as two paragraphs to separate hydrides (non-adiabatic / vertex / anharmonic) from conventional Migdal-regime materials (Na-intercalated graphite). (3) EPW tile reworded: vertex corrections + **Berry curvature implementation** (replaces "topological point detection") + two-level MPI parallelization **for superconductivity**. (4) New **WannierBerri** tile: IFE implementation. (5) Collaborations updated: UMD (Murphy + Dev), Tohoku (Mori), IIT Madras (Nanda + Roy), new "Other collaborators" line with Akashi, Das, Rambabu. |
+| `_pages/cv.md` | Email → `shashi13@umd.edu`, GitHub link removed (GitLab only). |
+| `_pages/publications.html` | Rewritten: now uses `layout: home` (no sidebar), splits entries into **Journal articles** and **Conference proceedings** lists styled with the `.pubs` typography. Profile sidebar is gone — profile portrait appears only on the About page. |
+| `_config.yml` | `author.email` → `shashi13@umd.edu`; `author.github` cleared (GitLab remains). |
+| `_sass/layout/_home.scss` | New components: `.home__header--with-photo` + `.home__portrait` (circular avatar, grid that stacks on mobile), `.highlights*` (3-column figure/title/venue/summary/DOI cards) with dark-mode overrides. |
+| `files/Shashi_CV.pdf` | Replaced with the latest CV from `/Volumes/Research/Shashi-Academics/CV.pdf` (132 KB). The About page no longer links the PDF — the `/cv/` page is the canonical CV — but the file is refreshed for anyone with a bookmarked URL. |
+| `images/profile.png` | Refreshed from `/Volumes/Research/Shashi-Academics/IOP-B/Shashi-photo.png` (1235×1235, 363 KB). Now only consumed by the About header. |
+| `images/featured/topological-transport.png` (new) | Rendered from `Proposals/figures/Toc_taas.pdf` via `sips`. |
+| `images/featured/ife-light-matter.png` (new) | From `Proposals/figures/Ultrafast-res.png` (972×641). Stand-in until a dedicated IFE-curve figure is supplied; UCR group–style IFE plot is not yet available as a standalone asset. |
+| `images/featured/energy-materials.png` (new) | From `Proposals/figures/energy-sch.png` (1311×925). |
+
+### Known divergences / follow-ups
+
+- The IFE highlight uses `Ultrafast-res.png` as a stand-in. If you want the
+  specific dM<sub>IFE</sub>/dI-vs-ℏω plot from the PRB 2023 paper (the figure
+  shown in the attached CV page), send me the raw PNG and I'll swap it in.
+- Publications page: the Liquid split by `category` assumes the frontmatter
+  correctly tags `conferences`. Today only `2017-05-lifepo4-md.md` is flagged,
+  so the Conference Proceedings section has exactly one entry.
+- `author.github` is now blank in `_config.yml`. The Minimal-Mistakes sidebar
+  on any page still using `author_profile: true` (there are no such pages on
+  the new site) would silently drop the icon rather than link somewhere wrong.
+
+---
+
 ## Pass 2 (2026-04-19, later)
 
 Extends the home aesthetic to the Research and CV pages, updates current

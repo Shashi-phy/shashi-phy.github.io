@@ -93,6 +93,35 @@ main.home {
     padding-bottom: 2rem;
     border-top: none;
   }
+  .home__header--with-photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  @media (min-width: 640px) {
+    .home__header--with-photo {
+      grid-template-columns: minmax(0, 1fr) 160px;
+      gap: 2rem;
+    }
+  }
+  .home__header-text { min-width: 0; }
+  .home__portrait {
+    margin: 0;
+    justify-self: center;
+  }
+  .home__portrait img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid $home-rule;
+    background: $home-surface;
+  }
+  @media (max-width: 639px) {
+    .home__portrait img { width: 130px; height: 130px; }
+  }
   .home__name {
     font-family: $home-serif;
     font-weight: 500;
@@ -191,6 +220,69 @@ main.home {
     border-radius: 3px;
   }
   .featured__doi:hover { border-bottom-color: transparent; background: darken($home-accent-soft, 3%); }
+
+  /* ---- Research highlights (three smaller cards under the hero) --------- */
+  .highlights {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  @media (min-width: 720px) {
+    .highlights { grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  }
+  .highlights__card {
+    display: flex;
+    flex-direction: column;
+    background: $home-surface;
+    border: 1px solid $home-rule;
+    border-radius: 4px;
+    padding: 0.85rem 0.95rem 1rem;
+  }
+  .highlights__figure {
+    margin: -0.85rem -0.95rem 0.85rem;
+    border-bottom: 1px solid $home-rule;
+    background: #ffffff;
+    padding: 0.6rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  .highlights__figure img {
+    display: block;
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  .highlights__title {
+    font-family: $home-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: $home-text;
+    margin: 0 0 0.2rem;
+    line-height: 1.3;
+  }
+  .highlights__venue {
+    font-family: $home-sans;
+    font-size: 13px;
+    color: $home-subtle;
+    margin: 0 0 0.55rem;
+  }
+  .highlights__venue em { color: $home-muted; font-style: italic; }
+  .highlights__summary {
+    font-size: 14px;
+    line-height: 1.55;
+    color: $home-muted;
+    margin: 0 0 0.7rem;
+    flex: 1;
+  }
+  .highlights__doi {
+    align-self: flex-start;
+    font-size: 13px;
+    font-weight: 500;
+    color: $home-accent;
+  }
+  .highlights__doi:hover { border-bottom-color: $home-accent; }
 
   /* ---- Research themes --------------------------------------------------- */
   .themes {
@@ -479,4 +571,15 @@ main.home {
   .projects__refs li { color: $dk-muted; }
   .projects__refs a { color: $dk-text; }
   .projects__refs a:hover { color: $dk-accent; }
+
+  .home__portrait img { background: $dk-surface; border-color: $dk-rule; }
+
+  .highlights__card { background: $dk-surface; border-color: $dk-rule; }
+  .highlights__figure { background: #ffffff; border-bottom-color: $dk-rule; }
+  .highlights__title { color: $dk-text; }
+  .highlights__venue { color: $dk-subtle; }
+  .highlights__venue em { color: $dk-muted; }
+  .highlights__summary { color: $dk-muted; }
+  .highlights__doi { color: $dk-accent; }
+  .highlights__doi:hover { border-bottom-color: $dk-accent; }
 }

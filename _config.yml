@@ -28,7 +28,7 @@ author:
   location         : "College Park, MD, USA"
   employer         : "University of Maryland"
   uri              : # URL
-  email            : "smishra9@binghamton.edu" 
+  email            : "shashi13@umd.edu"
 
   # Academic websites
   arxiv            : Shashimishra
@@ -42,7 +42,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   gitlab           : "Shashi-phy"
-  github           : "Shashi-phy"
+  github           : # removed per 2026-04 redesign — GitLab is the public profile
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

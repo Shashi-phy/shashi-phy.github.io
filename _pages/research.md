@@ -15,7 +15,7 @@ author_profile: false
 <section class="home__about" aria-labelledby="research-intro">
   <h2 id="research-intro">Overview</h2>
   <p>
-    My group studies how electrons, phonons, and light interact in real materials — and what those interactions can be tuned to do. We combine density-functional and many-body perturbation theory with large-scale electron–phonon calculations (through the EPW code) to predict superconducting transition temperatures, transport coefficients, and optical responses from first principles, and we increasingly use machine learning to accelerate the search for promising materials.
+    I study how electrons, phonons, and light interact in real materials — and what those interactions can be tuned to do. My work combines density-functional and many-body perturbation theory with large-scale electron–phonon calculations (through the EPW code) to predict superconducting transition temperatures, transport coefficients, and optical responses from first principles, and I increasingly use machine learning to accelerate the search for promising materials.
   </p>
 </section>
 
@@ -24,9 +24,12 @@ author_profile: false
   <div class="projects">
 
     <article class="projects__item">
-      <h3>Beyond-Migdal superconductivity</h3>
+      <h3>Superconductivity</h3>
       <p>
-        The Migdal approximation — the standard decoupling of electron and phonon propagators — breaks down when the two share comparable energy scales, as in high-pressure hydrides. We compute electron–phonon vertex corrections, non-adiabatic effects, and anharmonic phonon contributions from first principles, and measure what they change about the predicted T<sub>c</sub> of materials such as H<sub>3</sub>S and Na-intercalated graphite.
+        I study conventional phonon-mediated superconductors on two fronts. In high-pressure hydrides such as H<sub>3</sub>S and D<sub>3</sub>S, the Migdal approximation — the textbook decoupling of electron and phonon propagators — is no longer safe: electrons and phonons share comparable energy scales. I compute electron–phonon vertex corrections, non-adiabatic effects, and anharmonic phonon contributions from first principles and measure their impact on the predicted T<sub>c</sub>.
+      </p>
+      <p>
+        For conventional superconductors that remain well within the Migdal regime — such as Na-intercalated graphite — I combine stability searches with full Eliashberg-level electron–phonon calculations to chart a stability-superconductivity map that guides experimental synthesis.
       </p>
       <ul class="projects__refs">
         <li><a href="https://doi.org/10.1038/s41524-025-01818-9" target="_blank" rel="noopener">Electron-phonon vertex correction effect in superconducting H<sub>3</sub>S</a> &middot; <em>npj Comput. Mater.</em> <strong>11</strong>, 342 (2025).</li>
@@ -79,11 +82,15 @@ author_profile: false
   <div class="themes">
     <div class="themes__tile">
       <h3>EPW — Electron-Phonon Wannier</h3>
-      <p>Core developer. Contributed vertex corrections, topological point detection, and a two-level MPI parallelization that scales Wannier-interpolated electron–phonon calculations to large grids.</p>
+      <p>Core developer. Contributed the electron-phonon vertex correction implementation, a Berry curvature implementation for topological transport, and a two-level MPI parallelization that scales superconductivity calculations to dense <strong>k</strong>/<strong>q</strong>-grids.</p>
+    </div>
+    <div class="themes__tile">
+      <h3>WannierBerri</h3>
+      <p>Contributed the inverse Faraday effect (IFE) implementation, enabling first-principles calculation of light-driven magnetization in metallic systems directly from Wannier-interpolated band structures.</p>
     </div>
     <div class="themes__tile">
       <h3>EPWpy</h3>
-      <p>Python workflow automation layer over EPW and Quantum ESPRESSO, built with collaborators at Oden Institute, UT Austin. Abstracts many-body workflows (transport, superconductivity, optics) into reproducible scripts.</p>
+      <p>Python workflow automation layer over EPW and Quantum ESPRESSO, built with collaborators at the Oden Institute, UT Austin. Abstracts many-body workflows (transport, superconductivity, optics) into reproducible scripts.</p>
     </div>
   </div>
 </section>
@@ -91,11 +98,15 @@ author_profile: false
 <section aria-labelledby="collab-heading">
   <h2 id="collab-heading">Collaborations</h2>
   <ul class="cv-list">
-    <li><strong>University of Maryland (Prof. Thomas E. Murphy)</strong> — ultrafast optics and light-driven magnetism.</li>
+    <li><strong>University of Maryland (Prof. Thomas E. Murphy, Prof. Pratibha Dev)</strong> — ultrafast optics and light-driven magnetism; defects in quantum materials.</li>
     <li><strong>SUNY Binghamton (Prof. E. R. Margine)</strong> — beyond-Migdal electron-phonon theory, transport in topological semimetals.</li>
+    <li><strong>Tohoku University (Dr. Hitoshi Mori)</strong> — non-adiabatic and vertex-correction effects in hydride superconductors.</li>
     <li><strong>UC Riverside (Prof. Sinisa Coh, Prof. R. B. Wilson)</strong> — inverse Faraday effect and ultrafast optical experiments.</li>
     <li><strong>UT Austin (Prof. Feliciano Giustino)</strong> — EPW and EPWpy ecosystem, high-throughput many-body workflows.</li>
-    <li><strong>IIT Madras (Prof. B. R. K. Nanda)</strong> — 2D materials, energy storage, and catalysis.</li>
+    <li><strong>IIT Madras (Prof. B. R. K. Nanda, Prof. Somnath Roy)</strong> — 2D materials, energy storage, catalysis, and oxide surface chemistry.</li>
     <li><strong>University of Michigan (Prof. Emmanouil Kioupakis)</strong> — first-principles transport in wide-bandgap and metastable phases.</li>
+    <li>
+      <strong>Other collaborators</strong> — Prof. Ryosuke Akashi (Japan), Dr. Abinash Das, Dr. Y. Rambabu.
+    </li>
   </ul>
 </section>

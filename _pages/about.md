@@ -9,20 +9,24 @@ redirect_from:
   - /about.html
 ---
 
-<section class="home__header" aria-label="Identity">
-  <h1 class="home__name">Shashi B. Mishra</h1>
-  <p class="home__role">
-    <em>Assistant Research Scientist</em>,
-    Department of Electrical &amp; Computer Engineering,<br>
-    University of Maryland, College Park
-  </p>
-  <ul class="home__links">
-    <li><a href="mailto:smishra9@binghamton.edu">smishra9@binghamton.edu</a></li>
-    <li><a href="https://scholar.google.com/citations?user=yLSyEkoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google&nbsp;Scholar</a></li>
-    <li><a href="https://orcid.org/0000-0002-6361-3379" target="_blank" rel="noopener">ORCID</a></li>
-    <li><a href="https://github.com/Shashi-phy" target="_blank" rel="noopener">GitHub</a></li>
-    <li><a href="https://gitlab.com/Shashi-phy" target="_blank" rel="noopener">GitLab</a></li>
-  </ul>
+<section class="home__header home__header--with-photo" aria-label="Identity">
+  <div class="home__header-text">
+    <h1 class="home__name">Shashi B. Mishra</h1>
+    <p class="home__role">
+      <em>Assistant Research Scientist</em>,
+      Department of Electrical &amp; Computer Engineering,<br>
+      University of Maryland, College Park
+    </p>
+    <ul class="home__links">
+      <li><a href="mailto:shashi13@umd.edu">shashi13@umd.edu</a></li>
+      <li><a href="https://scholar.google.com/citations?user=yLSyEkoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google&nbsp;Scholar</a></li>
+      <li><a href="https://orcid.org/0000-0002-6361-3379" target="_blank" rel="noopener">ORCID</a></li>
+      <li><a href="https://gitlab.com/Shashi-phy" target="_blank" rel="noopener">GitLab</a></li>
+    </ul>
+  </div>
+  <figure class="home__portrait">
+    <img src="{{ site.baseurl }}/images/profile.png" alt="Portrait of Shashi B. Mishra" />
+  </figure>
 </section>
 
 <section class="home__about" aria-labelledby="about-heading">
@@ -34,6 +38,7 @@ redirect_from:
 
 <section class="home__featured" aria-labelledby="featured-heading">
   <h2 id="featured-heading">Featured research</h2>
+
   <div class="featured">
     <div class="featured__text">
       <h3 class="featured__title">Electron-phonon vertex correction effect in superconducting H<sub>3</sub>S</h3>
@@ -52,11 +57,66 @@ redirect_from:
     </div>
     <figure class="featured__figure">
       <img src="{{ site.baseurl }}/images/featured/h3s-vertex-correction.png"
-           alt="First-principles calculation showing the effect of electron-phonon vertex corrections on the Eliashberg spectral function and superconducting T_c of H3S and Pb." />
+           alt="First-principles calculation showing the effect of electron-phonon vertex corrections on superconducting T_c of H3S and Pb." />
       <figcaption>
         Vertex corrections to the electron-phonon interaction in H<sub>3</sub>S and Pb, computed from density functional theory.
       </figcaption>
     </figure>
+  </div>
+
+  <div class="highlights">
+
+    <article class="highlights__card">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/topological-transport.png"
+             alt="Electrical conductivity of the Weyl semimetal TaAs from first principles." />
+      </figure>
+      <h3 class="highlights__title">Transport in topological materials</h3>
+      <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>113</strong>, 045202 (2026)</p>
+      <p class="highlights__summary">
+        Phonon-limited carrier transport across the TaAs family of Weyl semimetals, computed from first principles. The work resolves how Berry-curvature-rich bands and electron–phonon scattering jointly shape conductivity.
+      </p>
+      <a class="highlights__doi"
+         href="https://journals.aps.org/prb/abstract/10.1103/d9np-11j1"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/ife-light-matter.png"
+             alt="First-principles inverse Faraday response across the 3d, 4d, and 5d transition metal series." />
+      </figure>
+      <h3 class="highlights__title">Inverse Faraday effect in transition metals</h3>
+      <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>111</strong>, 174413 (2025)</p>
+      <p class="highlights__summary">
+        A gauge-invariant first-principles theory of the inverse Faraday effect — the magnetization induced in a metal by circularly polarized light — traced across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> series, revealing trends that enable rational ultrafast optical control of magnetism.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1103/PhysRevB.111.174413"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/energy-materials.png"
+             alt="Two-dimensional framework materials for next-generation battery anodes and cathodes." />
+      </figure>
+      <h3 class="highlights__title">Energy materials by design</h3>
+      <p class="highlights__venue"><em>ACS Appl. Energy Mater.</em> <strong>4</strong>, 7786 (2021)</p>
+      <p class="highlights__summary">
+        First-principles design of two-dimensional anodes and cathodes — Si<sub>2</sub>BN, graphyne, graphdiyne — for next-generation Al- and Mg-ion batteries, balancing capacity, diffusivity, and structural stability.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1021/acsaem.1c01164"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
   </div>
 </section>
 
@@ -137,7 +197,7 @@ redirect_from:
     </li>
   </ol>
   <p style="margin-top:1.25rem;font-size:14px;color:#6b6b6b;">
-    See the <a href="{{ site.baseurl }}/publications/">full publication list</a> (29 peer-reviewed articles) for all work.
+    See the <a href="{{ site.baseurl }}/publications/">full publication list</a> for all work.
   </p>
 </section>
 
@@ -145,16 +205,15 @@ redirect_from:
   <h2 id="cv-heading">Curriculum vitae</h2>
   <p>
     <a class="cv-link"
-       href="{{ site.baseurl }}/files/Shashi_CV.pdf"
-       target="_blank" rel="noopener">
-      Download CV (PDF)
+       href="{{ site.baseurl }}/cv/">
+      View full CV &rarr;
     </a>
   </p>
 </section>
 
 <section id="contact" class="home__contact contact" aria-labelledby="contact-heading">
   <h2 id="contact-heading">Contact</h2>
-  <p><a href="mailto:smishra9@binghamton.edu">smishra9@binghamton.edu</a></p>
+  <p><a href="mailto:shashi13@umd.edu">shashi13@umd.edu</a></p>
   <p>Department of Electrical &amp; Computer Engineering<br>
   University of Maryland, College Park, MD 20742</p>
 </section>
