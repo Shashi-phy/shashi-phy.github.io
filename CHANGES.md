@@ -1,5 +1,32 @@
 # Site redesign — April 2026
 
+## Pass 4 (2026-04-19, late evening)
+
+Header layout and research-highlight carousel, per user feedback.
+
+### Files touched (pass 4)
+
+| File | Change |
+|---|---|
+| `_pages/about.md` | (1) Header order flipped: portrait now sits in the **left corner** next to the name/role/links block (was right-aligned, centred big). (2) Three research highlights (topology, IFE, energy) wrapped in a **horizontal slider** with prev/next arrow buttons and keyboard-accessible scroll-snap. Inline ~10-line JS wires up the arrows; the track is also fully swipeable/scrollable without JS (CSS scroll-snap). |
+| `_sass/layout/_home.scss` | (1) `.home__header--with-photo` now a 110 px / 1fr grid (was 1fr / 160 px) — portrait ~30 % smaller, same column on mobile collapses to 86 px. (2) New `.slider*` component (track with `scroll-snap-type: x mandatory`, custom thin scrollbar, circular prev/next buttons positioned absolutely, hidden below 520 px). (3) `.highlights__card` now lives inside the slider with `scroll-snap-align: start`, fixed 260 px card width. (4) `.highlights__figure img max-height: 120 px` (was 180 px) — all thumbnails are smaller. (5) Dark-mode overrides added for the slider components. |
+| `images/featured/energy-materials.png` | Resized via `sips -Z 650` — 1311×925 → 650×459, **1.3 MB → 335 kB** (74 % file-size reduction, ≥50 % dimension reduction). |
+| `images/featured/ife-light-matter.png` | Resized via `sips -Z 900` — 947 kB → 478 kB for web optimization (still large enough to render cleanly on Retina). |
+
+### Behaviour
+
+- **Mobile / narrow:** arrow buttons hide, cards become 82 % viewport width; user swipes horizontally.
+- **Desktop:** arrow buttons appear on the sides; click advances ~85 % of the track width. Cards snap into place.
+- **No JS path:** the track is still scrollable with trackpad / shift-wheel; only the arrow-button shortcut requires the 10-line script.
+- **Reduced motion:** `scroll-behavior: smooth` is the only animation; browsers respect `prefers-reduced-motion` natively when set.
+
+### Still open / notes
+
+- I did **not** add a fourth carousel slide for the Spin-IFE PRB 2023 paper — the current three are Topology / IFE (PRB 2025) / Energy per your previous message. If you want the Spin-IFE paper to be its own slide (with the dM/dI-vs-ℏω figure from your CV page), send me the figure PNG and I'll add it.
+- `devcmgroup.nfshost.com` doesn't actually have a carousel — I checked. Its research layout is a static grid of clickable thumbnails. The slider here is a custom build that inherits the same minimal aesthetic (thin rule, neutral palette, serif titles), but the *motion* is our own choice since the reference didn't demo it.
+
+---
+
 ## Pass 3 (2026-04-19, evening)
 
 Targeted follow-ups driven by user feedback: expand Featured Research, refresh

@@ -10,6 +10,9 @@ redirect_from:
 ---
 
 <section class="home__header home__header--with-photo" aria-label="Identity">
+  <figure class="home__portrait">
+    <img src="{{ site.baseurl }}/images/profile.png" alt="Portrait of Shashi B. Mishra" />
+  </figure>
   <div class="home__header-text">
     <h1 class="home__name">Shashi B. Mishra</h1>
     <p class="home__role">
@@ -24,9 +27,6 @@ redirect_from:
       <li><a href="https://gitlab.com/Shashi-phy" target="_blank" rel="noopener">GitLab</a></li>
     </ul>
   </div>
-  <figure class="home__portrait">
-    <img src="{{ site.baseurl }}/images/profile.png" alt="Portrait of Shashi B. Mishra" />
-  </figure>
 </section>
 
 <section class="home__about" aria-labelledby="about-heading">
@@ -64,9 +64,11 @@ redirect_from:
     </figure>
   </div>
 
-  <div class="highlights">
+  <div class="slider" aria-label="Research highlights carousel">
+    <button type="button" class="slider__btn slider__btn--prev" data-slider-prev aria-label="Previous highlights">&lsaquo;</button>
+    <div class="slider__track" data-slider-track role="list">
 
-    <article class="highlights__card">
+    <article class="highlights__card" role="listitem">
       <figure class="highlights__figure">
         <img src="{{ site.baseurl }}/images/featured/topological-transport.png"
              alt="Electrical conductivity of the Weyl semimetal TaAs from first principles." />
@@ -83,7 +85,7 @@ redirect_from:
       </a>
     </article>
 
-    <article class="highlights__card">
+    <article class="highlights__card" role="listitem">
       <figure class="highlights__figure">
         <img src="{{ site.baseurl }}/images/featured/ife-light-matter.png"
              alt="First-principles inverse Faraday response across the 3d, 4d, and 5d transition metal series." />
@@ -100,7 +102,7 @@ redirect_from:
       </a>
     </article>
 
-    <article class="highlights__card">
+    <article class="highlights__card" role="listitem">
       <figure class="highlights__figure">
         <img src="{{ site.baseurl }}/images/featured/energy-materials.png"
              alt="Two-dimensional framework materials for next-generation battery anodes and cathodes." />
@@ -117,7 +119,20 @@ redirect_from:
       </a>
     </article>
 
+    </div>
+    <button type="button" class="slider__btn slider__btn--next" data-slider-next aria-label="Next highlights">&rsaquo;</button>
   </div>
+  <script>
+    (function(){
+      var track = document.querySelector('[data-slider-track]');
+      var prev  = document.querySelector('[data-slider-prev]');
+      var next  = document.querySelector('[data-slider-next]');
+      if (!track || !prev || !next) return;
+      function step(){ return Math.max(200, track.clientWidth * 0.85); }
+      prev.addEventListener('click', function(){ track.scrollBy({left: -step(), behavior: 'smooth'}); });
+      next.addEventListener('click', function(){ track.scrollBy({left:  step(), behavior: 'smooth'}); });
+    })();
+  </script>
 </section>
 
 <section class="home__themes" aria-labelledby="themes-heading">

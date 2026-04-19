@@ -95,32 +95,27 @@ main.home {
   }
   .home__header--with-photo {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 1.25rem;
     align-items: center;
-  }
-  @media (min-width: 640px) {
-    .home__header--with-photo {
-      grid-template-columns: minmax(0, 1fr) 160px;
-      gap: 2rem;
-    }
   }
   .home__header-text { min-width: 0; }
   .home__portrait {
     margin: 0;
-    justify-self: center;
+    justify-self: start;
   }
   .home__portrait img {
     display: block;
-    width: 160px;
-    height: 160px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     object-fit: cover;
     border: 1px solid $home-rule;
     background: $home-surface;
   }
-  @media (max-width: 639px) {
-    .home__portrait img { width: 130px; height: 130px; }
+  @media (max-width: 420px) {
+    .home__header--with-photo { grid-template-columns: 86px minmax(0, 1fr); gap: 1rem; }
+    .home__portrait img { width: 86px; height: 86px; }
   }
   .home__name {
     font-family: $home-serif;
@@ -221,64 +216,104 @@ main.home {
   }
   .featured__doi:hover { border-bottom-color: transparent; background: darken($home-accent-soft, 3%); }
 
-  /* ---- Research highlights (three smaller cards under the hero) --------- */
-  .highlights {
-    margin-top: 2rem;
+  /* ---- Research highlights: horizontal slider -------------------------- */
+  .slider { position: relative; margin-top: 2rem; }
+  .slider__track {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 260px;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: $home-subtle transparent;
+    padding: 0.2rem 0 0.65rem;
+    -webkit-overflow-scrolling: touch;
   }
-  @media (min-width: 720px) {
-    .highlights { grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .slider__track::-webkit-scrollbar { height: 6px; }
+  .slider__track::-webkit-scrollbar-thumb { background: $home-subtle; border-radius: 3px; }
+  .slider__track::-webkit-scrollbar-track { background: transparent; }
+  .slider__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: $home-surface;
+    border: 1px solid $home-rule;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    cursor: pointer;
+    font-family: $home-serif;
+    font-size: 22px;
+    line-height: 1;
+    color: $home-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    opacity: 0.92;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    transition: opacity 120ms ease, border-color 120ms ease, color 120ms ease;
   }
+  .slider__btn:hover { opacity: 1; border-color: $home-accent; color: $home-accent; }
+  .slider__btn--prev { left: -14px; }
+  .slider__btn--next { right: -14px; }
+  @media (max-width: 520px) {
+    .slider__btn { display: none; }
+    .slider__track { grid-auto-columns: 82%; }
+  }
+
   .highlights__card {
     display: flex;
     flex-direction: column;
     background: $home-surface;
     border: 1px solid $home-rule;
     border-radius: 4px;
-    padding: 0.85rem 0.95rem 1rem;
+    padding: 0.75rem 0.9rem 0.9rem;
+    scroll-snap-align: start;
   }
   .highlights__figure {
-    margin: -0.85rem -0.95rem 0.85rem;
+    margin: -0.75rem -0.9rem 0.7rem;
     border-bottom: 1px solid $home-rule;
     background: #ffffff;
-    padding: 0.6rem;
+    padding: 0.45rem;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
   .highlights__figure img {
     display: block;
     width: 100%;
-    max-height: 180px;
+    max-height: 120px;
     object-fit: contain;
     margin: 0 auto;
   }
   .highlights__title {
     font-family: $home-serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 16px;
     color: $home-text;
     margin: 0 0 0.2rem;
     line-height: 1.3;
   }
   .highlights__venue {
     font-family: $home-sans;
-    font-size: 13px;
+    font-size: 12.5px;
     color: $home-subtle;
-    margin: 0 0 0.55rem;
+    margin: 0 0 0.5rem;
   }
   .highlights__venue em { color: $home-muted; font-style: italic; }
   .highlights__summary {
-    font-size: 14px;
-    line-height: 1.55;
+    font-size: 13.5px;
+    line-height: 1.5;
     color: $home-muted;
-    margin: 0 0 0.7rem;
+    margin: 0 0 0.6rem;
     flex: 1;
   }
   .highlights__doi {
     align-self: flex-start;
-    font-size: 13px;
+    font-size: 12.5px;
     font-weight: 500;
     color: $home-accent;
   }
@@ -582,4 +617,14 @@ main.home {
   .highlights__summary { color: $dk-muted; }
   .highlights__doi { color: $dk-accent; }
   .highlights__doi:hover { border-bottom-color: $dk-accent; }
+
+  .slider__track { scrollbar-color: $dk-subtle transparent; }
+  .slider__track::-webkit-scrollbar-thumb { background: $dk-subtle; }
+  .slider__btn {
+    background: $dk-surface;
+    border-color: $dk-rule;
+    color: $dk-text;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .slider__btn:hover { border-color: $dk-accent; color: $dk-accent; }
 }
