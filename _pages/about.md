@@ -39,44 +39,36 @@ redirect_from:
 <section class="home__featured" aria-labelledby="featured-heading">
   <h2 id="featured-heading">Featured research</h2>
 
-  <div class="featured">
-    <div class="featured__text">
-      <h3 class="featured__title">Electron-phonon vertex correction effect in superconducting H<sub>3</sub>S</h3>
-      <p class="featured__venue">
-        S.&nbsp;B.&nbsp;Mishra, H.&nbsp;Mori &amp; E.&nbsp;R.&nbsp;Margine &middot;
-        <em>npj Computational Materials</em> <strong>11</strong>, 342 (2025)
-      </p>
-      <p class="featured__summary">
-        A foundational assumption in conventional superconductivity — Migdal's theorem — holds that certain quantum corrections to the electron-phonon interaction are negligibly small. We compute those corrections from first principles in the high-pressure hydride H<sub>3</sub>S and in elemental Pb, and find they reduce the predicted superconducting critical temperature of H<sub>3</sub>S by roughly a quarter while leaving ordinary superconductors essentially unchanged. The result sharpens a 65-year-old theoretical backbone and points to what a more predictive framework for hydride superconductors needs to include.
-      </p>
-      <a class="featured__doi"
-         href="https://doi.org/10.1038/s41524-025-01818-9"
-         target="_blank" rel="noopener">
-        Read the paper &rarr;
-      </a>
-    </div>
-    <figure class="featured__figure">
-      <img src="{{ site.baseurl }}/images/featured/h3s-vertex-correction.png"
-           alt="First-principles calculation showing the effect of electron-phonon vertex corrections on superconducting T_c of H3S and Pb." />
-      <figcaption>
-        Vertex corrections to the electron-phonon interaction in H<sub>3</sub>S and Pb, computed from density functional theory.
-      </figcaption>
-    </figure>
-  </div>
-
   <div class="slider" aria-label="Research highlights carousel">
     <button type="button" class="slider__btn slider__btn--prev" data-slider-prev aria-label="Previous highlights">&lsaquo;</button>
     <div class="slider__track" data-slider-track role="list">
 
     <article class="highlights__card" role="listitem">
       <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/h3s-vertex-correction.png"
+             alt="Vertex corrections to the electron-phonon interaction in H3S and Pb, from DFT." />
+      </figure>
+      <h3 class="highlights__title">Vertex corrections in H<sub>3</sub>S</h3>
+      <p class="highlights__venue"><em>npj Comput. Mater.</em> <strong>11</strong>, 342 (2025)</p>
+      <p class="highlights__summary">
+        First-principles electron-phonon vertex corrections reduce the predicted T<sub>c</sub> of H<sub>3</sub>S by roughly a quarter, while leaving conventional superconductors like Pb essentially untouched — refining the Migdal framework for high-pressure hydrides.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1038/s41524-025-01818-9"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
         <img src="{{ site.baseurl }}/images/featured/topological-transport.png"
-             alt="Electrical conductivity of the Weyl semimetal TaAs from first principles." />
+             alt="Electrical conductivity of the Weyl semimetal TaAs family from first principles." />
       </figure>
       <h3 class="highlights__title">Transport in topological materials</h3>
       <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>113</strong>, 045202 (2026)</p>
       <p class="highlights__summary">
-        Phonon-limited carrier transport across the TaAs family of Weyl semimetals, computed from first principles. The work resolves how Berry-curvature-rich bands and electron–phonon scattering jointly shape conductivity.
+        Phonon-limited carrier transport across the TaAs family of Weyl semimetals, computed from first principles — resolving how Berry-curvature-rich bands and electron–phonon scattering jointly shape conductivity.
       </p>
       <a class="highlights__doi"
          href="https://journals.aps.org/prb/abstract/10.1103/d9np-11j1"
@@ -87,13 +79,47 @@ redirect_from:
 
     <article class="highlights__card" role="listitem">
       <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/na-graphite.png"
+             alt="Emergent quantum phenomena in DFT-predicted Na-intercalated graphite compounds." />
+      </figure>
+      <h3 class="highlights__title">Na-intercalated graphite superconductors</h3>
+      <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>110</strong>, 174508 (2024)</p>
+      <p class="highlights__summary">
+        A stability–superconductivity map for compressed Na-intercalated graphite — charting the stoichiometries and pressures that maximize phonon-mediated T<sub>c</sub> within the Migdal regime to guide experimental synthesis.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1103/PhysRevB.110.174508"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/h3s-isotope.png"
+             alt="Isotope effect and anharmonic phonons in H3S versus D3S superconductors." />
+      </figure>
+      <h3 class="highlights__title">Non-adiabatic &amp; anharmonic H<sub>3</sub>S / D<sub>3</sub>S</h3>
+      <p class="highlights__venue"><em>Annalen der Physik</em> <strong>538</strong>, e00553 (2026)</p>
+      <p class="highlights__summary">
+        Full-bandwidth ab initio Eliashberg calculations that quantify how non-adiabatic electron-phonon coupling and phonon anharmonicity jointly reshape the isotope effect and T<sub>c</sub> in H<sub>3</sub>S and D<sub>3</sub>S.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1002/andp.202500553"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
         <img src="{{ site.baseurl }}/images/featured/ife-light-matter.png"
              alt="First-principles inverse Faraday response across the 3d, 4d, and 5d transition metal series." />
       </figure>
-      <h3 class="highlights__title">Inverse Faraday effect in transition metals</h3>
+      <h3 class="highlights__title">Inverse Faraday effect in metals</h3>
       <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>111</strong>, 174413 (2025)</p>
       <p class="highlights__summary">
-        A gauge-invariant first-principles theory of the inverse Faraday effect — the magnetization induced in a metal by circularly polarized light — traced across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> series, revealing trends that enable rational ultrafast optical control of magnetism.
+        A gauge-invariant first-principles theory of light-induced magnetization, traced across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> series to reveal trends that enable rational ultrafast optical control of magnetism.
       </p>
       <a class="highlights__doi"
          href="https://doi.org/10.1103/PhysRevB.111.174413"

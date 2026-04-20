@@ -1,5 +1,30 @@
 # Site redesign — April 2026
 
+## Pass 5 (2026-04-19, night)
+
+Featured research is now a single 6-slide carousel — no more hero.
+
+### Files touched (pass 5)
+
+| File | Change |
+|---|---|
+| `_pages/about.md` | The 2-column H<sub>3</sub>S hero (figure + long paragraph) is removed. H<sub>3</sub>S is now **the first slide of the same carousel** as the other research cards, with identical dimensions, a shorter 1-sentence summary, and the "65-year-old theoretical backbone" phrasing dropped. Two new slides added: **Na-intercalated graphite superconductors** (PRB 110, 174508 — 2024) using the graphite-intercalation figure, and **Non-adiabatic & anharmonic H<sub>3</sub>S / D<sub>3</sub>S** (Ann. Phys. 538, e00553 — 2026) using the isotope-ToC figure. Carousel now has **6 uniform slides** in this order: H<sub>3</sub>S vertex → TaAs family → Na-graphite → H<sub>3</sub>S/D<sub>3</sub>S isotope → IFE → Energy materials. |
+| `images/featured/na-graphite.png` (new) | From `Proposals/figures/DCOMP-image.png` (2877×2313) → `sips -Z 750` → 225 kB. Caption source: "Emergent quantum phenomena from DFT-predicted graphite intercalation compounds." |
+| `images/featured/h3s-isotope.png` (new) | From `Proposals/figures/Isotope_toc_figure.png` (887×933) → `sips -Z 750` → 96 kB. |
+
+### Rationale
+
+- **Consistency.** Every slide is now a `highlights__card` with the same width (260 px), same figure max-height (120 px), same title / venue / summary / DOI structure. H<sub>3</sub>S no longer gets special treatment — it's still first in the deck.
+- **Page length.** The old hero pushed the rest of the page down by ~480 px. With H<sub>3</sub>S folded into the slider, the About → Featured → Themes → Publications flow is visible within a shorter scroll on a 1440 px viewport.
+- **Same-aesthetic more papers.** Two additional peer-reviewed works (Na-graphite PRB 2024, H<sub>3</sub>S/D<sub>3</sub>S Ann. Phys. 2026) are now highlighted with their own figures.
+
+### Still open
+
+- The `.featured*` CSS classes are no longer used on any page. I left them in `_home.scss` for now — harmless, small, easy to re-use if you ever want another 2-column hero on a different page. Say the word and I'll delete them.
+- No new slides for Spin-IFE (PRB 2023) or other papers (catalysis, graphene/TiO<sub>2</sub>, etc.). If you want the carousel longer, point me at which papers and (ideally) which figure files to use.
+
+---
+
 ## Pass 4 (2026-04-19, late evening)
 
 Header layout and research-highlight carousel, per user feedback.
