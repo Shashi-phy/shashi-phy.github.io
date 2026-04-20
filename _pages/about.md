@@ -117,9 +117,12 @@ redirect_from:
              alt="First-principles inverse Faraday response across the 3d, 4d, and 5d transition metal series." />
       </figure>
       <h3 class="highlights__title">Inverse Faraday effect in metals</h3>
-      <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>111</strong>, 174413 (2025)</p>
+      <p class="highlights__venue">
+        <em>Phys. Rev. B</em> <strong>111</strong>, 174413 (2025) &middot;
+        <a href="https://doi.org/10.1103/PhysRevB.107.214432" target="_blank" rel="noopener"><em>Phys. Rev. B</em> <strong>107</strong>, 214432 (2023)</a>
+      </p>
       <p class="highlights__summary">
-        A gauge-invariant first-principles theory of light-induced magnetization, traced across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> series to reveal trends that enable rational ultrafast optical control of magnetism.
+        A gauge-invariant first-principles theory of light-induced magnetization — formulated for non-magnetic metals using degenerate perturbation theory with Wannier interpolation (2023), and traced systematically across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> series (2025) to reveal trends that enable ultrafast optical control of magnetism.
       </p>
       <a class="highlights__doi"
          href="https://doi.org/10.1103/PhysRevB.111.174413"
@@ -140,6 +143,125 @@ redirect_from:
       </p>
       <a class="highlights__doi"
          href="https://doi.org/10.1021/acsaem.1c01164"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/rs-fluorine-graphene.jpg"
+             alt="Fluorine intercalation between graphene layers forming a dimerized spin lattice." />
+      </figure>
+      <h3 class="highlights__title">Suspended spin lattice in fluorine–graphene</h3>
+      <p class="highlights__venue"><em>Phys. Rev. Mater.</em> <strong>4</strong>, 074411 (2020)</p>
+      <p class="highlights__summary">
+        Fluorine intercalated between graphene layers is pseudoatomized through bond stretching and charge transfer, stabilizing a spin-polarized ground state with long-range magnetic order — an artificial van der Waals spin lattice with the graphene host retaining its pristine bands.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1103/PhysRevMaterials.4.074411"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/rs-ba2mnteo6.jpg"
+             alt="Triangular lattice of Mn2+ spins in the double perovskite Ba2MnTeO6." />
+      </figure>
+      <h3 class="highlights__title">Magnetic order in Ba<sub>2</sub>MnTeO<sub>6</sub></h3>
+      <p class="highlights__venue"><em>Sci. Rep.</em> <strong>11</strong>, 6959 (2021)</p>
+      <p class="highlights__summary">
+        Experiment and DFT+U together resolve competing intra- and inter-layer AFM exchanges on the Mn<sup>2+</sup> triangular lattice of Ba<sub>2</sub>MnTeO<sub>6</sub>, stabilizing a 3D long-range magnetic ordering that matches the measured Curie–Weiss temperature at <em>U</em> = 5.75 eV.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1038/s41598-021-84876-5"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/rs-graphene-tio2.jpg"
+             alt="Low-strain commensurate graphene/TiO2 interface with Dirac-cone preservation." />
+      </figure>
+      <h3 class="highlights__title">Graphene / TiO<sub>2</sub> interface</h3>
+      <p class="highlights__venue"><em>Appl. Surf. Sci.</em> <strong>542</strong>, 148709 (2021)</p>
+      <p class="highlights__summary">
+        A low-strain commensurate graphene/TiO<sub>2</sub> interface preserves graphene's gapless Dirac bands under strain; in the AB-stacked bilayer, interfacial charge transfer opens a narrow bandgap — enabling visible-light-sensitized photocatalysis.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1016/j.apsusc.2020.148709"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/rs-sp2deg.jpg"
+             alt="Double-perovskite heterostructure hosting a spin-polarized two-dimensional electron gas." />
+      </figure>
+      <h3 class="highlights__title">Spin-polarized 2DEG in oxide heterostructures</h3>
+      <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>98</strong>, 115155 (2018)</p>
+      <p class="highlights__summary">
+        A non-polar oxide heterostructure Sr<sub>2</sub>FeMoO<sub>6</sub>/La<sub>2</sub>CoMnO<sub>6</sub> realizes a spin-polarized two-dimensional electron gas through quantum confinement and orbital manipulation — a route distinct from LaAlO<sub>3</sub>/SrTiO<sub>3</sub>-like polar interfaces.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1103/PhysRevB.98.115155"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/rs-co2-tio2.jpg"
+             alt="Three-state model for CO2 adsorption on anatase TiO2(001) surface." />
+      </figure>
+      <h3 class="highlights__title">Three-state model of CO<sub>2</sub> on TiO<sub>2</sub>(001)</h3>
+      <p class="highlights__venue"><em>Phys. Rev. Mater.</em> <strong>2</strong>, 115801 (2018)</p>
+      <p class="highlights__summary">
+        A three-state model couples surface deformation, charge transfer, and molecular-orbital bonding to explain CO<sub>2</sub> adsorption on anatase TiO<sub>2</sub>(001) — predicting uniaxial, long-ranged interactions and strong binding-energy anisotropy confirmed by density-of-states analysis.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1103/PhysRevMaterials.2.115801"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/rs-facet-tio2.jpg"
+             alt="Reactivity order across anatase TiO2 facets for CO2 and H2O co-adsorption." />
+      </figure>
+      <h3 class="highlights__title">Facet-dependent CO<sub>2</sub> catalysis on TiO<sub>2</sub></h3>
+      <p class="highlights__venue"><em>Appl. Surf. Sci.</em> <strong>531</strong>, 147330 (2020)</p>
+      <p class="highlights__summary">
+        Ranking CO<sub>2</sub>, H<sub>2</sub>O, and co-adsorption-driven bicarbonate formation across low-index anatase TiO<sub>2</sub> facets — including the reconstructed (1×4)-(001) — with the change in exchange–correlation energy serving as a quantitative bond-strength indicator.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1016/j.apsusc.2020.147330"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/rs-no2-tio2.jpg"
+             alt="Reaction pathway for NO2 dissociation on rutile TiO2(110) surface." />
+      </figure>
+      <h3 class="highlights__title">NO<sub>2</sub> dissociation on rutile TiO<sub>2</sub>(110)</h3>
+      <p class="highlights__venue"><em>J. Phys. Chem. C</em> <strong>124</strong>, 8786 (2020)</p>
+      <p class="highlights__summary">
+        DFT reaction-pathway analysis for NO<sub>2</sub> on rutile TiO<sub>2</sub>(110): NO<sub>2</sub> dimerizes into a short-lived N<sub>2</sub>O<sub>4</sub> that dissociates to ionic species and, with H<sub>2</sub>O present, converts to HONO and HNO<sub>3</sub> — a roadmap for toxic-gas conversion on oxide surfaces.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1021/acs.jpcc.0c00525"
          target="_blank" rel="noopener">
         Read the paper &rarr;
       </a>

@@ -1,5 +1,51 @@
 # Site redesign — April 2026
 
+## Pass 6 (2026-04-20)
+
+Imported the 8 numbered items from `Research-Summary.docx` into the home carousel
+with their native figures, short descriptions paraphrased from the docx, and DOIs
+matched against the publications list / CV.
+
+### Files touched (pass 6)
+
+| File | Change |
+|---|---|
+| `_pages/about.md` | Appended **8 new carousel slides** after the existing 6, bringing the deck to **14 cards total**. |
+| `images/featured/rs-ife-theory.png` (new) | From docx `media/image1.png` (285×267). |
+| `images/featured/rs-fluorine-graphene.jpg` (new) | From docx `media/image2.jpg` (564×406). |
+| `images/featured/rs-ba2mnteo6.jpg` (new) | From docx `media/image3.jpg` (770×430). |
+| `images/featured/rs-graphene-tio2.jpg` (new) | From docx `media/image4.jpg` (657×217). |
+| `images/featured/rs-sp2deg.jpg` (new) | From docx `media/image5.jpg` (715×420). |
+| `images/featured/rs-co2-tio2.jpg` (new) | From docx `media/image6.jpg` (702×347). |
+| `images/featured/rs-facet-tio2.jpg` (new) | From docx `media/image8.jpg` (572×361). |
+| `images/featured/rs-no2-tio2.jpg` (new) | From docx `media/image9.jpg` (506×206). |
+
+### Final carousel order (14 slides)
+
+1. Vertex corrections in H<sub>3</sub>S — *npj Comput. Mater.* 11, 342 (2025)
+2. Transport in topological materials — *Phys. Rev. B* 113, 045202 (2026)
+3. Na-intercalated graphite superconductors — *Phys. Rev. B* 110, 174508 (2024)
+4. Non-adiabatic & anharmonic H<sub>3</sub>S / D<sub>3</sub>S — *Ann. Phys.* 538, e00553 (2026)
+5. Inverse Faraday effect in metals — *Phys. Rev. B* 111, 174413 (2025)
+6. Energy materials by design — *ACS Appl. Energy Mater.* 4, 7786 (2021)
+7. **IFE theory in non-magnetic metals** — *Phys. Rev. B* 107, 214432 (2023) *(docx §1)*
+8. **Suspended spin lattice in fluorine–graphene** — *Phys. Rev. Mater.* 4, 074411 (2020) *(docx §2)*
+9. **Magnetic order in Ba<sub>2</sub>MnTeO<sub>6</sub>** — *Sci. Rep.* 11, 6959 (2021) *(docx §3)*
+10. **Graphene / TiO<sub>2</sub> interface** — *Appl. Surf. Sci.* 542, 148709 (2021) *(docx §4)*
+11. **Spin-polarized 2DEG in oxide heterostructures** — *Phys. Rev. B* 98, 115155 (2018) *(docx §5)*
+12. **Three-state model of CO<sub>2</sub> on TiO<sub>2</sub>(001)** — *Phys. Rev. Mater.* 2, 115801 (2018) *(docx §6)*
+13. **Facet-dependent CO<sub>2</sub> catalysis on TiO<sub>2</sub>** — *Appl. Surf. Sci.* 531, 147330 (2020) *(docx §7)*
+14. **NO<sub>2</sub> dissociation on rutile TiO<sub>2</sub>(110)** — *J. Phys. Chem. C* 124, 8786 (2020) *(docx §8)*
+
+### Notes
+
+- The docx figures were pasted in as-is (all already web-sized, 23–82 kB); no `sips` resize needed. The carousel's 120 px figure max-height handles the aspect differences automatically.
+- Docx `media/image7.png` (30×4) was skipped — it is a thin divider, not a figure.
+- The docx lists *Sci. Rep.* 11, **6595** for Ba<sub>2</sub>MnTeO<sub>6</sub>; your CV lists **6959**. The card uses the CV number (matches the DOI `10.1038/s41598-021-84876-5`).
+- The docx IFE section (§1) describes the theory formulation in non-magnetic metals; its closest published match is *Phys. Rev. B* 107, 214432 (2023) Mishra & Coh, so that's what the DOI links to. The earlier "Inverse Faraday effect in metals" card (slide 5) still points to the PRB 111 (2025) follow-up — the two are kept as distinct slides because they correspond to distinct papers.
+
+---
+
 ## Pass 5 (2026-04-19, night)
 
 Featured research is now a single 6-slide carousel — no more hero.
