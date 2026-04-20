@@ -32,7 +32,7 @@ redirect_from:
 <section class="home__about" aria-labelledby="about-heading">
   <h2 id="about-heading">About</h2>
   <p>
-    I am a theoretical condensed matter physicist and computational materials scientist working at the intersection of first-principles simulation, many-body theory, and high-performance computing. My research focuses on phonon-mediated superconductivity beyond the Migdal approximation, electron-phonon-limited transport in topological semimetals, and light-induced magnetic phenomena in metals. I am a core contributor to the open-source EPW code, where I implemented electron-phonon vertex corrections and two-level MPI parallelization strategies.
+    I am a theoretical condensed matter physicist and computational materials scientist with expertise in first-principles simulations, many-body theory, and high-performance computing. My work focuses on understanding quantum materials through electron-phonon interactions, with particular interests in superconductivity beyond the Migdal approximation, transport in topological semimetals, and light-induced magnetic phenomena in metals. I am also a contributor to the open-source EPW code, where I have implemented electron-phonon vertex corrections and efficient two-level MPI parallelization strategies for superconductivity.
   </p>
 </section>
 
