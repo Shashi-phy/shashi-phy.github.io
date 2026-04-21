@@ -66,9 +66,12 @@ redirect_from:
              alt="Electrical conductivity of the Weyl semimetal TaAs family from first principles." />
       </figure>
       <h3 class="highlights__title">Transport in topological materials</h3>
-      <p class="highlights__venue"><em>Phys. Rev. B</em> <strong>113</strong>, 045202 (2026)</p>
+      <p class="highlights__venue">
+        <em>Phys. Rev. B</em> <strong>113</strong>, 045202 (2026) &middot;
+        <a href="https://link.aps.org/doi/10.1103/x8zl-w5x3" target="_blank" rel="noopener"><em>Phys. Rev. B</em> <strong>112</strong>, 104311 (2025)</a>
+      </p>
       <p class="highlights__summary">
-        Phonon-limited carrier transport across the TaAs family of Weyl semimetals, computed from first principles — resolving how Berry-curvature-rich bands and electron–phonon scattering jointly shape conductivity.
+        Phonon-limited carrier transport in Weyl semimetals — established first for TaAs (2025) and then traced systematically across the TaAs family (2026) — resolving how Berry-curvature-rich bands and electron–phonon scattering jointly shape conductivity.
       </p>
       <a class="highlights__doi"
          href="https://journals.aps.org/prb/abstract/10.1103/d9np-11j1"
