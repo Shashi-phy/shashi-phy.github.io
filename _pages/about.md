@@ -122,10 +122,11 @@ redirect_from:
       <h3 class="highlights__title">Inverse Faraday effect in metals</h3>
       <p class="highlights__venue">
         <em>Phys. Rev. B</em> <strong>111</strong>, 174413 (2025) &middot;
-        <a href="https://doi.org/10.1103/PhysRevB.107.214432" target="_blank" rel="noopener"><em>Phys. Rev. B</em> <strong>107</strong>, 214432 (2023)</a>
+        <a href="https://doi.org/10.1103/PhysRevB.107.214432" target="_blank" rel="noopener"><em>Phys. Rev. B</em> <strong>107</strong>, 214432 (2023)</a> &middot;
+        <a href="https://link.aps.org/doi/10.1103/PhysRevMaterials.7.125202" target="_blank" rel="noopener"><em>Phys. Rev. Mater.</em> <strong>7</strong>, 125202 (2023)</a>
       </p>
       <p class="highlights__summary">
-        A gauge-invariant first-principles theory of light-induced magnetization — formulated for non-magnetic metals using degenerate perturbation theory with Wannier interpolation (2023), and traced systematically across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> series (2025) to reveal trends that enable ultrafast optical control of magnetism.
+        A gauge-invariant first-principles theory of light-induced magnetization — formulated for non-magnetic metals using degenerate perturbation theory with Wannier interpolation (2023), validated by transient-ellipsometry measurements (2023), and traced systematically across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> series (2025) to enable ultrafast optical control of magnetism.
       </p>
       <a class="highlights__doi"
          href="https://doi.org/10.1103/PhysRevB.111.174413"
@@ -153,6 +154,26 @@ redirect_from:
 
     <article class="highlights__card" role="listitem">
       <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/publications/si2bn-battery-fig.png"
+             alt="Si2BN 2D nanosheet as an anode for Mg- and Al-ion batteries." />
+      </figure>
+      <h3 class="highlights__title">Si<sub>2</sub>BN for energy storage devices</h3>
+      <p class="highlights__venue">
+        <em>ACS Appl. Nano Mater.</em> <strong>3</strong>, 9055 (2020) &middot;
+        <a href="https://www.sciencedirect.com/science/article/pii/S2352152X23033121" target="_blank" rel="noopener"><em>J. Energy Storage</em> <strong>77</strong>, 109913 (2024)</a>
+      </p>
+      <p class="highlights__summary">
+        The unique 2D Si<sub>2</sub>BN sheet is exploited as an anode for Mg-ion (2020) and high-capacity Al-ion (2024) batteries — its semimetallic electronic structure, low Mg/Al migration barrier, and high theoretical capacity enable fast charge/discharge cycles suitable for high-performance anodes.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1021/acsanm.0c01747"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
         <img src="{{ site.baseurl }}/images/featured/rs-fluorine-graphene.jpg"
              alt="Fluorine intercalation between graphene layers forming a dimerized spin lattice." />
       </figure>
@@ -163,6 +184,46 @@ redirect_from:
       </p>
       <a class="highlights__doi"
          href="https://doi.org/10.1103/PhysRevMaterials.4.074411"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/publications/CeO2-defect-fig.png"
+             alt="Defect dynamics and CeO2/g-C3N4 heterojunction for photocatalysis." />
+      </figure>
+      <h3 class="highlights__title">Catalytic activities of defect / heterostructure CeO<sub>2</sub></h3>
+      <p class="highlights__venue">
+        <em>Adv. Funct. Mater.</em> e13933 (2025) &middot;
+        <a href="https://doi.org/10.1021/acsami.5c10272" target="_blank" rel="noopener"><em>ACS Appl. Mater. Interfaces</em> (2025)</a>
+      </p>
+      <p class="highlights__summary">
+        First-principles analysis of photo-excited defect dynamics in CeO<sub>2</sub> and of the electrostatic-self-assembled CeO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub> heterojunction — two routes that respectively enhance CO<sub>2</sub> photoreduction and photocatalytic hydrogen evolution on ceria surfaces.
+      </p>
+      <a class="highlights__doi"
+         href="https://doi.org/10.1002/adfm.202513933"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/publications/tio2-nanorod-fig.jpg"
+             alt="Swift heavy-ion irradiation modifying TiO2 nanorods." />
+      </figure>
+      <h3 class="highlights__title">Irradiation-induced activity in TiO<sub>2</sub></h3>
+      <p class="highlights__venue">
+        <em>Mater. Sci. Eng. B</em> <strong>326</strong>, 119210 (2026) &middot;
+        <a href="https://doi.org/10.1039/D1NA00666E" target="_blank" rel="noopener"><em>Nanoscale Adv.</em> <strong>4</strong>, 241 (2022)</a>
+      </p>
+      <p class="highlights__summary">
+        Swift heavy-ion irradiation tailors the crystallinity, morphology, and electronic structure of TiO<sub>2</sub> nanorods via a thermal-spike mechanism — unlocking anomalous gas-sensing characteristics and modified catalytic activity beyond what pristine growth can deliver.
+      </p>
+      <a class="highlights__doi"
+         href="https://www.sciencedirect.com/science/article/pii/S0921510726000334"
          target="_blank" rel="noopener">
         Read the paper &rarr;
       </a>
