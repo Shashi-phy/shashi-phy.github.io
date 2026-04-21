@@ -21,7 +21,7 @@ redirect_from:
       University of Maryland, College Park
     </p>
     <ul class="home__links">
-      <li><a href="mailto:shashi13@umd.edu">shashi13@umd.edu</a></li>
+      <li><a href="mailto:shashi13@umd.edu">Email</a></li>
       <li><a href="https://scholar.google.com/citations?user=yLSyEkoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google&nbsp;Scholar</a></li>
       <li><a href="https://orcid.org/0000-0002-6361-3379" target="_blank" rel="noopener">ORCID</a></li>
       <li><a href="https://gitlab.com/Shashi-phy" target="_blank" rel="noopener">GitLab</a></li>
@@ -376,7 +376,7 @@ redirect_from:
 
 <section id="contact" class="home__contact contact" aria-labelledby="contact-heading">
   <h2 id="contact-heading">Contact</h2>
-  <p><a href="mailto:shashi13@umd.edu">shashi13@umd.edu</a></p>
+  <p><a href="mailto:shashi13@umd.edu">Email</a></p>
   <p>Department of Electrical &amp; Computer Engineering<br>
   University of Maryland, College Park, MD 20742</p>
 </section>
