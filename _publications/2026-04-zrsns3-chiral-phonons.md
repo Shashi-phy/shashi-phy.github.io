@@ -1,13 +1,14 @@
 ---
-title: "Chiral Phonons and Giant Photoresponse in anisotropic Quasi-1D van der Waals Semiconductor ZrSnS₃"
+title: "Chiral phonons and giant anisotropic photoresponse in quasi-1D van der Waals semiconductor ZrSnS₃"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-zrsns3-chiral-phonons
-authors: 'Zahir Muhammad*, S. B. Mishra*, Gayatri, Grzegorz Krasucki, Wajid Ali, Obaid Iqbal, Zia Ur Rehman, Aziz Ur Rahman, Maciej R. Molas, Lin Xiaoyang, and Weisheng Zhao (*equal contribution)'
-date: 2026-04-01
-venue: 'Preprint (under review at Advanced Functional Materials)'
-venue_short: 'Under review, Adv. Funct. Mater.'
+authors: 'Z. Muhammad*, S. B. Mishra*, Gayatri, G. Krasucki, W. Ali, K. Olkowska-Pucko, O. Iqbal, Z. U. Rehman, A. U. Rahman, M. R. Molas, L. Xiaoyang, and W. Zhao (*equal contribution)'
+date: 2026-08-24
+venue: 'arXiv (preprint; in revision at Laser & Photonics Reviews)'
+venue_short: 'arXiv:2608.22700'
 pub_number: 32
+paperurl: 'https://arxiv.org/abs/2608.22700'
 ---
 
-Manuscript under review at *Advanced Functional Materials*.
+[Read the paper](https://arxiv.org/abs/2608.22700){:target="_blank"}

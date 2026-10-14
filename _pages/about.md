@@ -45,6 +45,74 @@ redirect_from:
 
     <article class="highlights__card" role="listitem">
       <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/hydride-anharmonic-vertex.png"
+             alt="Superconducting Tc of seven hydrides at harmonic, anharmonic, and vertex-corrected levels of theory compared with experiment." />
+      </figure>
+      <h3 class="highlights__title">Anharmonicity &amp; nonadiabaticity in hydrides</h3>
+      <p class="highlights__venue"><em>arXiv</em>:2608.14949 (2026)</p>
+      <p class="highlights__summary">
+        Anharmonic phonons from machine-learned SSCHA combined with vertex-corrected full-bandwidth Eliashberg theory across H<sub>3</sub>S, YH<sub>6</sub>, YH<sub>9</sub>, LaBeH<sub>8</sub>, and PdH/D/T — with two diagnostics, <em>A</em><sub>&lambda;</sub> and <em>R</em><sub>V</sub>, that tell which approximation limits a given T<sub>c</sub> prediction.
+      </p>
+      <a class="highlights__doi"
+         href="https://arxiv.org/abs/2608.14949"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/nbresi-gap-anharmonic.png"
+             alt="Superconducting gap of NbReSi versus temperature with harmonic and anharmonic phonons, with and without vertex corrections." />
+      </figure>
+      <h3 class="highlights__title">Noncentrosymmetric NbReSi beyond Migdal&ndash;Eliashberg</h3>
+      <p class="highlights__venue"><em>arXiv</em>:2609.30564 (2026)</p>
+      <p class="highlights__summary">
+        Re-dominated breathing modes of the heavy-metal framework carry over 95% of the electron&ndash;phonon coupling; zero-point anharmonic hardening and the leading vertex correction together bring the calculated T<sub>c</sub> and gap of NbReSi into agreement with experiment, where harmonic theory overshoots by more than 60%.
+      </p>
+      <a class="highlights__doi"
+         href="https://arxiv.org/abs/2609.30564"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/tias-symmetry-topology.png"
+             alt="Orbital-resolved band structure of hexagonal TiAs and the symmetry-enforced degeneracy at the A point." />
+      </figure>
+      <h3 class="highlights__title">Symmetry-enforced topology in TiAs</h3>
+      <p class="highlights__venue"><em>arXiv</em>:2610.12925 (2026)</p>
+      <p class="highlights__summary">
+        In hexagonal TiAs, nonsymmorphic <em>P</em>6<sub>3</sub>/<em>mmc</em> symmetry enforces fourfold band degeneracies at the zone boundary and a strong topological index (&#8484;<sub>4</sub> = 2), while a Van Hove saddle point and Lifshitz transition shape the anisotropic Fermi surface behind the measured twofold angular magnetoresistance.
+      </p>
+      <a class="highlights__doi"
+         href="https://arxiv.org/abs/2610.12925"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
+        <img src="{{ site.baseurl }}/images/featured/zrsns3-raman-theory.png"
+             alt="Measured and first-principles Raman spectra of ZrSnS3 with symmetry-labelled phonon modes." />
+      </figure>
+      <h3 class="highlights__title">Chiral phonons in quasi-1D ZrSnS<sub>3</sub></h3>
+      <p class="highlights__venue"><em>arXiv</em>:2608.22700 (2026)</p>
+      <p class="highlights__summary">
+        First-principles Raman spectra reproduce the measured modes of ZrSnS<sub>3</sub> within a few cm<sup>&minus;1</sup>, and phonon angular-momentum textures near avoided crossings explain the helicity-dependent Raman signatures of chiral phonons in this anisotropic photodetector material.
+      </p>
+      <a class="highlights__doi"
+         href="https://arxiv.org/abs/2608.22700"
+         target="_blank" rel="noopener">
+        Read the paper &rarr;
+      </a>
+    </article>
+
+    <article class="highlights__card" role="listitem">
+      <figure class="highlights__figure">
         <img src="{{ site.baseurl }}/images/featured/h3s-vertex-correction.png"
              alt="Vertex corrections to the electron-phonon interaction in H3S and Pb, from DFT." />
       </figure>

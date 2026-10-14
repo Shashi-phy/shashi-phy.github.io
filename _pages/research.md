@@ -31,7 +31,13 @@ author_profile: false
       <p>
         For conventional superconductors that remain well within the Migdal regime — such as Na-intercalated graphite — I combine stability searches with full Eliashberg-level electron–phonon calculations to chart a stability-superconductivity map that guides experimental synthesis.
       </p>
+      <p>
+        Most recently, I tested these corrections side by side across seven hydrides, from H<sub>3</sub>S, YH<sub>6</sub>, and YH<sub>9</sub> at megabar pressures to ambient-pressure PdH/D/T, and introduced two diagnostics, the anharmonic renormalization <em>A</em><sub>&lambda;</sub> and the vertex ratio <em>R</em><sub>V</sub>, that identify which approximation limits a given T<sub>c</sub> prediction. The same corrections matter beyond hydrides: in the noncentrosymmetric superconductor NbReSi, anharmonicity and vertex corrections together bring T<sub>c</sub> and the gap into agreement with experiment. With collaborators, I also study two-dimensional MXene and MBene superconductors, where phonon-mediated pairing coexists with nontrivial band topology.
+      </p>
       <ul class="projects__refs">
+        <li><a href="https://arxiv.org/abs/2608.14949" target="_blank" rel="noopener">Anharmonicity and nonadiabaticity in hydride superconductors</a> &middot; <em>arXiv</em>:2608.14949 (2026).</li>
+        <li><a href="https://arxiv.org/abs/2609.30564" target="_blank" rel="noopener">Superconductivity in noncentrosymmetric NbReSi: beyond harmonic and adiabatic limits</a> &middot; <em>arXiv</em>:2609.30564 (2026).</li>
+        <li><a href="https://doi.org/10.1039/d6tc02460b" target="_blank" rel="noopener">Superconductivity and band topology in functionalized 2D hexagonal MBenes</a> &middot; <em>J. Mater. Chem. C</em> (2026).</li>
         <li><a href="https://doi.org/10.1038/s41524-025-01818-9" target="_blank" rel="noopener">Electron-phonon vertex correction effect in superconducting H<sub>3</sub>S</a> &middot; <em>npj Comput. Mater.</em> <strong>11</strong>, 342 (2025).</li>
         <li><a href="https://doi.org/10.1002/andp.202500553" target="_blank" rel="noopener">Nonadiabatic and anharmonic effects in high-pressure H<sub>3</sub>S and D<sub>3</sub>S</a> &middot; <em>Ann. Phys.</em> <strong>538</strong>, e00553 (2026).</li>
         <li><a href="https://doi.org/10.1103/PhysRevB.110.174508" target="_blank" rel="noopener">Stability-superconductivity map for compressed Na-intercalated graphite</a> &middot; <em>Phys. Rev. B</em> <strong>110</strong>, 174508 (2024).</li>
@@ -43,7 +49,11 @@ author_profile: false
       <p>
         Weyl and Dirac semimetals host anomalous responses that descend from their Berry-curvature textures. We compute phonon-limited conductivity, mobility, and related transport coefficients for realistic materials at the Wannier-interpolated level, and we are developing data-driven models that extrapolate these properties across a family of candidates.
       </p>
+      <p>
+        Crystal symmetry often decides where these signatures come from. In hexagonal TiAs, nonsymmorphic symmetry enforces fourfold band degeneracies and a strong topological index, and a Van Hove saddle point near the Fermi level shapes the anisotropic Fermi surface seen in angle-dependent magnetoresistance.
+      </p>
       <ul class="projects__refs">
+        <li><a href="https://arxiv.org/abs/2610.12925" target="_blank" rel="noopener">Symmetry-enforced topology and Van Hove saddle points in hexagonal TiAs</a> &middot; <em>arXiv</em>:2610.12925 (2026).</li>
         <li><a href="https://journals.aps.org/prb/abstract/10.1103/d9np-11j1" target="_blank" rel="noopener">Comparative study of phonon-limited carrier transport in the Weyl semimetal TaAs family</a> &middot; <em>Phys. Rev. B</em> <strong>113</strong>, 045202 (2026).</li>
         <li><a href="https://doi.org/10.1103/x8zl-w5x3" target="_blank" rel="noopener">Phonon-limited carrier transport in the Weyl semimetal TaAs</a> &middot; <em>Phys. Rev. B</em> <strong>112</strong>, 104311 (2025).</li>
         <li><a href="https://aip.scitation.org/doi/10.1063/5.0079032" target="_blank" rel="noopener">Work function of van der Waals topological semimetals</a> &middot; <em>Appl. Phys. Lett.</em> <strong>120</strong>, 093101 (2022).</li>
@@ -56,6 +66,7 @@ author_profile: false
         Circularly polarized light can drive magnetization in metals through the inverse Faraday effect. We developed a gauge-invariant first-principles framework for this response and traced its systematic trends across the 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> transition metals — setting the stage for practical ultrafast, all-optical magnetic control.
       </p>
       <ul class="projects__refs">
+        <li><a href="https://arxiv.org/abs/2608.22700" target="_blank" rel="noopener">Chiral phonons and giant anisotropic photoresponse in quasi-1D ZrSnS<sub>3</sub></a> &middot; <em>arXiv</em>:2608.22700 (2026).</li>
         <li><a href="https://doi.org/10.1103/PhysRevB.111.174413" target="_blank" rel="noopener">Inverse Faraday effect in 3<em>d</em>, 4<em>d</em>, and 5<em>d</em> transition metals</a> &middot; <em>Phys. Rev. B</em> <strong>111</strong>, 174413 (2025).</li>
         <li><a href="https://link.aps.org/doi/10.1103/PhysRevMaterials.7.125202" target="_blank" rel="noopener">Transient ellipsometry of the specular inverse Faraday effect</a> &middot; <em>Phys. Rev. Mater.</em> <strong>7</strong>, 125202 (2023).</li>
         <li><a href="https://doi.org/10.1103/PhysRevB.107.214432" target="_blank" rel="noopener">Spin contribution to the inverse Faraday effect of nonmagnetic metals</a> &middot; <em>Phys. Rev. B</em> <strong>107</strong>, 214432 (2023).</li>

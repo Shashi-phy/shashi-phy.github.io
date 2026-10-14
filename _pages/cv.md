@@ -181,5 +181,5 @@ redirect_from:
 
 <section id="cv-publications" aria-labelledby="cv-pub-heading">
   <h2 id="cv-pub-heading">Publications</h2>
-  <p>See the <a href="{{ site.baseurl }}/publications/">full publication list</a> — 29 peer-reviewed articles and one conference proceeding.</p>
+  <p>See the <a href="{{ site.baseurl }}/publications/">full publication list</a> — 30 peer-reviewed articles and one conference proceeding.</p>
 </section>
